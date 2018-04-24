@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="技术," />
+  <meta name="keywords" content="评论," />
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。">
-<meta name="keywords" content="技术">
+<meta name="description" content="当地时间4月16号，美国商务部发布通告，7年内禁止美国企业向中兴通讯出口任何技术和产品。理由是中兴违反了17年和美国达成的协议，该协议指出中兴违反美对伊朗的出口管制政策。">
+<meta name="keywords" content="评论">
 <meta property="og:type" content="article">
-<meta property="og:title" content="重装系统后还原Hexo">
-<meta property="og:url" content="http://yoursite.com/2018/04/24/重装系统后还原Hexo/index.html">
+<meta property="og:title" content="中兴被美封杀">
+<meta property="og:url" content="http://yoursite.com/2018/04/24/中兴被封杀事件/index.html">
 <meta property="og:site_name" content="NO.0&#39;s Blog">
-<meta property="og:description" content="因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。">
+<meta property="og:description" content="当地时间4月16号，美国商务部发布通告，7年内禁止美国企业向中兴通讯出口任何技术和产品。理由是中兴违反了17年和美国达成的协议，该协议指出中兴违反美对伊朗的出口管制政策。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-24T05:06:01.198Z">
+<meta property="og:updated_time" content="2018-04-24T08:42:31.411Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="重装系统后还原Hexo">
-<meta name="twitter:description" content="因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。">
+<meta name="twitter:title" content="中兴被美封杀">
+<meta name="twitter:description" content="当地时间4月16号，美国商务部发布通告，7年内禁止美国企业向中兴通讯出口任何技术和产品。理由是中兴违反了17年和美国达成的协议，该协议指出中兴违反美对伊朗的出口管制政策。">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/24/重装系统后还原Hexo/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/24/中兴被封杀事件/"/>
 
 
 
 
 
-  <title>重装系统后还原Hexo | NO.0's Blog</title>
+  <title>中兴被美封杀 | NO.0's Blog</title>
   
 
 
@@ -283,7 +283,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/24/重装系统后还原Hexo/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/24/中兴被封杀事件/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="NO.0">
@@ -300,7 +300,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">重装系统后还原Hexo</h1>
+          <h1 class="post-title" itemprop="name headline">中兴被美封杀</h1>
         
 
         <div class="post-meta">
@@ -312,7 +312,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-24T12:07:53+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-24T16:06:36+08:00">
                 2018-04-24
               </time>
             
@@ -335,8 +335,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/study/" itemprop="url" rel="index">
-                    <span itemprop="name">study</span>
+                  <a href="/categories/essay/" itemprop="url" rel="index">
+                    <span itemprop="name">essay</span>
                   </a>
                 </span>
 
@@ -372,16 +372,13 @@
       
 
       
-        <p><strong>因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。</strong></p>
-<a id="more"></a>
-<p><code>git</code>和<code>Node.js</code>肯定是要重新安装的了，然后是生成新的<code>ssh key</code>,并把<code>id_rsa.pub</code>中的内容复制到Github的ssh中。<br>网上查阅相关资料，发现只要重新创建一个<code>hexo项目</code>然后将你备份的hexo博客数据根目录下的配置文件<code>_config.yml</code>还有<code>themes</code>主题文件夹和模板文件夹<code>scaffolds</code>覆盖到新建的项目中即可，因为是重新安装的git，所以还要重新执行如下命令：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name=<span class="string">"dontstayup"</span></span><br><span class="line">$ git config --global user.email=<span class="string">"tangxin@tang-xin.top"</span></span><br></pre></td></tr></table></figure>
-<p>如果<code>hexo d</code>命令失效的话，执行一下命令安装扩展：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<p>然后又可以开始写博客了。 ♪(^∇^*)</p>
+        <p>当地时间4月16号，美国商务部发布通告，7年内禁止美国企业向中兴通讯出口任何技术和产品。理由是中兴违反了17年和美国达成的协议，该协议指出中兴违反美对伊朗的出口管制政策。<br><a id="more"></a></p>
+<hr>
+<p>美国此举政策可能将会使中兴面临三个月内破产倒闭的风险，中兴公司此次事件暴露出了中国在关键核心技术上的不足，高端芯片自产的严重受制于人。即便对于中兴这一中国第二、全球第四的通讯服务提供商而言也是如此。</p>
 <blockquote>
-<p>本文基于<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">《署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)》</a>许可协议授权</p>
+<p>国家核心竞争力的不足<br>中国新四大发明被我们<br>当我们对于GDP的发展、房地产事业、金融贸易的繁华就认为中国已天下无敌，但此次事件一下子就扼住了喉咙。在芯片上卡主了你就动弹不得。所有的这些实业都是基于小小的芯片之上。实业都不存在了，互联网、金融等就马上消失了。</p>
 </blockquote>
+<p><code>未完待续</code></p>
 
       
     </div>
@@ -399,7 +396,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/技术/" rel="tag"># 技术</a>
+            <a href="/tags/评论/" rel="tag"># 评论</a>
           
         </div>
       
@@ -412,8 +409,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/22/基于GitHubj和Hexo搭建博客/" rel="next" title="基于GitHub和Hexo搭建博客">
-                <i class="fa fa-chevron-left"></i> 基于GitHub和Hexo搭建博客
+              <a href="/2018/04/24/重装系统后还原Hexo/" rel="next" title="重装系统后还原Hexo">
+                <i class="fa fa-chevron-left"></i> 重装系统后还原Hexo
               </a>
             
           </div>
@@ -421,10 +418,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/24/中兴被封杀事件/" rel="prev" title="中兴被美封杀">
-                中兴被美封杀 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
