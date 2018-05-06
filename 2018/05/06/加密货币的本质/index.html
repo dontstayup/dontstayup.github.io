@@ -93,10 +93,9 @@
 <meta property="og:image" content="http://yoursite.com/2018/05/06/加密货币的本质/4.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/05/06/加密货币的本质/5.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/05/06/加密货币的本质/6.jpg">
-<meta property="og:image" content="http://yoursite.com/2018/05/06/加密货币的本质/7.jpg">
-<meta property="og:image" content="http://yoursite.com/2018/05/06/加密货币的本质/8.jpg">
-<meta property="og:image" content="http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html">
-<meta property="og:updated_time" content="2018-05-06T05:03:16.111Z">
+<meta property="og:image" content="http://yoursite.com/2018/05/06/加密货币的本质/7.png">
+<meta property="og:image" content="http://yoursite.com/2018/05/06/加密货币的本质/8.png">
+<meta property="og:updated_time" content="2018-05-06T05:05:44.218Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="加密货币的本质">
 <meta name="twitter:description" content="现在，各种加密货币（cryptocurrency）不计其数。 很多人都在问，加密货币的时代，真的来临了吗？将来会不会人类不再使用美元、人民币，改用加密货币？那么多品种，我应该使用哪一种币？要不要现在就去投资一些？">
@@ -417,17 +416,17 @@
 <p>但是，互联网使得实体的银行卡也不需要了。如果存在一个开放的中央记账系统，任何人都可以查询，你把钱划到老板的账户，老板查询一下，发现收到了，交易自动成交，整个过程都是无形的，还需要什么银行卡呢？<br><img src="/2018/05/06/加密货币的本质/6.jpg" alt="  "><br>这个中央记账系统已经实现了，就叫做区块链。</p>
 <h2 id="六、区块链的作用"><a href="#六、区块链的作用" class="headerlink" title="六、区块链的作用"></a>六、区块链的作用</h2><p><strong>区块链就是一个数据库，记载了所有的交易，用作中央记账系统，分布在无数个节点之上。</strong></p>
 <p><strong>每笔交易的核心，就是一句话，比如”张三向李四转移了1个比特币”。</strong>为了证明这句话可信，张三为它加上了数字签名。任何人都可以用张三的公钥，证明这确实是张三本人的行为。另一方面，其他人无法伪造张三的数字签名，所以不可能伪造这笔交易。</p>
-<p>矿工们收到这句话，首先验证数字签名的可信性，然后验证张三确实拥有这些比特币（每一笔交易都有上一笔交易的编号，用来查询比特币的来源）。验证通过以后，就着手把这句话写入区块链了。一旦写入区块链，所有人就都可以查询到，因此这笔比特币就被认为，从张三转移到了李四。<br><img src="/2018/05/06/加密货币的本质/7.jpg" alt="  "><br><strong>区块链的作用就是把这句话永久保存下来了，让任何人都可以查看，并且任何人（包括张三本人在内）都无法再修改了。</strong></p>
+<p>矿工们收到这句话，首先验证数字签名的可信性，然后验证张三确实拥有这些比特币（每一笔交易都有上一笔交易的编号，用来查询比特币的来源）。验证通过以后，就着手把这句话写入区块链了。一旦写入区块链，所有人就都可以查询到，因此这笔比特币就被认为，从张三转移到了李四。<br><img src="/2018/05/06/加密货币的本质/7.png" alt="  "><br><strong>区块链的作用就是把这句话永久保存下来了，让任何人都可以查看，并且任何人（包括张三本人在内）都无法再修改了。</strong></p>
 <p>货币是什么？其实就是这句话”张三向李四转移了1个比特币”。这一句话就完成了一次支付。我们平时用人民币支付，其实只是用纸币表达这条信息。如果每个人都可以实时写入/读取中央记账系统（区块链），那么完全可以不携带货币。</p>
 <p><strong>数字货币的本质，就是一条可信的数据库记录。</strong>数据库记录了你拥有了多少钱，由于这个记录可信，你就真的因此拥有了这笔购买力。</p>
 <h2 id="七、双重支出"><a href="#七、双重支出" class="headerlink" title="七、双重支出"></a>七、双重支出</h2><p>前面说过，交易不可能被伪造。但是，由于每一笔交易都是一串二进制信号，因此可能被复制。举例来说，”张三向李四转移了1个比特币”这句话，可能被其他人复制，也可能被张三自己复制，提交到区块链。</p>
 <p><strong>如果这句话被两次写入区块链，就意味着张三可以把同一笔钱花掉两次。</strong>但是，第二次写入的时候，查询区块链可以发现张三已经把这笔钱花掉了，从而认定这是不合法的交易，不能写入区块链。因此，复制交易是不可能的。</p>
 <p><strong>比较麻烦的是另一种情况，就是张三把同一笔钱付给两个人。</strong>他先向区块链提交一个交易”张三向李四转移了1个比特币”，然后又提交了另一个交易”张三向王五转移了1个比特币”。这两个交易都可能被认为是真实的交易，从而进入区块链。因此，必须有办法防止出现这种情况。</p>
 <p>情况一：同一个矿工收到了这两个交易。那么他会察觉到，它们不可能同时成立，因此选择其中的一笔写入区块链。</p>
-<p>情况二：矿工 A 收到了第一笔交易，矿工 B 收到了第二笔交易，他们各自都会认定这是合法的交易，分别把这两笔交易写入了两个区块，这时区块链就出现了分叉。<br><img src="/2018/05/06/加密货币的本质/8.jpg" alt="  "><br>比特币协议规定，分叉点之后最先达到6个区块的那个分支，被认定为正式的区块链，其他分支都将被放弃。由于区块的生成速度由计算能力决定，所以到底哪一笔交易最后会被写入区块链，完全由它所在的分支能吸引多少计算能力决定。<strong>隐藏的逻辑是，如果大多数人（计算能力）选择相信某一笔交易，那么它就应该是真的。</strong></p>
+<p>情况二：矿工 A 收到了第一笔交易，矿工 B 收到了第二笔交易，他们各自都会认定这是合法的交易，分别把这两笔交易写入了两个区块，这时区块链就出现了分叉。<br><img src="/2018/05/06/加密货币的本质/8.png" alt="  "><br>比特币协议规定，分叉点之后最先达到6个区块的那个分支，被认定为正式的区块链，其他分支都将被放弃。由于区块的生成速度由计算能力决定，所以到底哪一笔交易最后会被写入区块链，完全由它所在的分支能吸引多少计算能力决定。<strong>隐藏的逻辑是，如果大多数人（计算能力）选择相信某一笔交易，那么它就应该是真的。</strong></p>
 <p>综上所述，双重支出不可能发生。因为中央记账系统总有办法发现，你把同一笔钱花了两遍。但是，这也说明了比特币的一个代价，就是交易不能实时确认，必须等待至少一个小时。</p>
 <blockquote>
-<p><img src="http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html" alt="本文来源：阮一峰的网络日志"></p>
+<p><a href="http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html" target="_blank" rel="noopener">本文来源：阮一峰的网络日志</a></p>
 </blockquote>
 
       
@@ -468,6 +467,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/05/06/Hexo插入图片/" rel="prev" title="Hexo插入图片">
+                Hexo插入图片 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -548,7 +551,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>

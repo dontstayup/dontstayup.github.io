@@ -79,18 +79,21 @@
 
 
 
-<meta name="description" content="因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。">
+<meta name="description" content="最近写博客发现要插入大量的图片，用hexo自带的方法是在是太繁(sha)琐(bi)了,上网百(gu)度(ge)了一波，发现大佬一枚。">
 <meta name="keywords" content="技术">
 <meta property="og:type" content="article">
-<meta property="og:title" content="重装系统后还原Hexo">
-<meta property="og:url" content="http://yoursite.com/2018/04/24/重装系统后还原Hexo/index.html">
+<meta property="og:title" content="Hexo插入图片">
+<meta property="og:url" content="http://yoursite.com/2018/05/06/Hexo插入图片/index.html">
 <meta property="og:site_name" content="NO.0&#39;s Blog">
-<meta property="og:description" content="因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。">
+<meta property="og:description" content="最近写博客发现要插入大量的图片，用hexo自带的方法是在是太繁(sha)琐(bi)了,上网百(gu)度(ge)了一波，发现大佬一枚。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-24T05:06:01.198Z">
+<meta property="og:image" content="http://yoursite.com/2018/05/06/Hexo插入图片/1.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/05/06/Hexo插入图片/2.jpg">
+<meta property="og:updated_time" content="2018-05-06T05:40:13.252Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="重装系统后还原Hexo">
-<meta name="twitter:description" content="因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。">
+<meta name="twitter:title" content="Hexo插入图片">
+<meta name="twitter:description" content="最近写博客发现要插入大量的图片，用hexo自带的方法是在是太繁(sha)琐(bi)了,上网百(gu)度(ge)了一波，发现大佬一枚。">
+<meta name="twitter:image" content="http://yoursite.com/2018/05/06/Hexo插入图片/1.jpg">
 
 
 
@@ -120,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/24/重装系统后还原Hexo/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/06/Hexo插入图片/"/>
 
 
 
 
 
-  <title>重装系统后还原Hexo | NO.0's Blog</title>
+  <title>Hexo插入图片 | NO.0's Blog</title>
   
 
 
@@ -293,7 +296,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/24/重装系统后还原Hexo/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/06/Hexo插入图片/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="NO.0">
@@ -310,7 +313,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">重装系统后还原Hexo</h1>
+          <h1 class="post-title" itemprop="name headline">Hexo插入图片</h1>
         
 
         <div class="post-meta">
@@ -322,8 +325,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-24T12:07:53+08:00">
-                2018-04-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-06T13:11:44+08:00">
+                2018-05-06
               </time>
             
 
@@ -382,13 +385,21 @@
       
 
       
-        <p><strong>因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。</strong></p>
+        <p>最近写博客发现要插入大量的图片<img src="/2018/05/06/Hexo插入图片/1.jpg" alt="吐血">，用hexo自带的方法是在是太繁(sha)琐(bi)了,上网百(gu)度(ge)了一波，发现<a href="https://www.jianshu.com/p/c2ba9533088a" target="_blank" rel="noopener">大佬一枚</a>。</p>
 <a id="more"></a>
-<p><code>git</code>和<code>Node.js</code>肯定是要重新安装的了，然后是生成新的<code>ssh key</code>,并把<code>id_rsa.pub</code>中的内容复制到Github的ssh中。<br>网上查阅相关资料，发现只要重新创建一个<code>hexo项目</code>然后将你备份的hexo博客数据根目录下的配置文件<code>_config.yml</code>还有<code>themes</code>主题文件夹和模板文件夹<code>scaffolds</code>覆盖到新建的项目中即可，因为是重新安装的git，所以还要重新执行如下命令：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name=<span class="string">"dontstayup"</span></span><br><span class="line">$ git config --global user.email=<span class="string">"tangxin@tang-xin.top"</span></span><br></pre></td></tr></table></figure>
-<p>如果<code>hexo d</code>命令失效的话，执行一下命令安装扩展：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-<p>然后又可以开始写博客了。 ♪(^∇^*)</p>
+<p>总结了一下这个牛批的的解决方案：</p>
+<h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><ol>
+<li>将hexo的配置文件 <code>_config.yml</code>中的<code>post_asset_folder:</code>这个选项设置为<code>true</code></li>
+<li>在博客目录下启动<code>gitbash</code>，然后执行命令<code>npm install hexo-asset-image--save</code>，此插件来自dalao：<a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">dalao的git</a></li>
+<li>等待安装完完成之后，在命令行里运行 <code>hexo new post &quot;***&quot;</code> 创建博客之后，在<code>_post</code>文件夹里有一个和博客名称相同的文件夹 <code>***</code></li>
+</ol>
+<h2 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h2><ol>
+<li>在 <code>***.mdv</code> 里写博客要插入图片时，直接在要插入的地上输入:</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![***](/***/图片名.扩展名)</span><br></pre></td></tr></table></figure>
+<p> 就可以了。</p>
+<p>emmmmm，貌似有学到了一个技(zhuang)巧(bi)。</p>
+<p><img src="/2018/05/06/Hexo插入图片/2.jpg" alt="装逼"></p>
 <blockquote>
 <p>本文基于<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">《署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)》</a>许可协议授权</p>
 </blockquote>
@@ -422,8 +433,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/22/基于GitHubj和Hexo搭建博客/" rel="next" title="基于GitHub和Hexo搭建博客">
-                <i class="fa fa-chevron-left"></i> 基于GitHub和Hexo搭建博客
+              <a href="/2018/05/06/加密货币的本质/" rel="next" title="加密货币的本质">
+                <i class="fa fa-chevron-left"></i> 加密货币的本质
               </a>
             
           </div>
@@ -431,10 +442,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/24/中兴被封杀事件/" rel="prev" title="中兴被美封杀">
-                中兴被美封杀 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -486,8 +493,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -561,6 +577,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#首先"><span class="nav-number">1.</span> <span class="nav-text">首先</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#接下来"><span class="nav-number">2.</span> <span class="nav-text">接下来</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
