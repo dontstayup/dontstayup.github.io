@@ -4,12 +4,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/04/24/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E8%BF%98%E5%8E%9FHexo/</loc>
-    <lastmod>2018-05-06T09:01:01.929Z</lastmod>
+    <loc>http://yoursite.com/2018/04/22/%E5%9F%BA%E4%BA%8EGitHubj%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2018-05-06T10:59:03.404Z</lastmod>
     <data>
         <display>
-        <title>重装系统后还原Hexo</title>
-        <pubTime>2018-04-24T04:07:53.000Z</pubTime>
+        <title>基于GitHub和Hexo搭建博客</title>
+        <pubTime>2018-04-22T15:08:41.000Z</pubTime>
         
         <tag>技术</tag>
          
@@ -25,11 +25,31 @@
     
   <url>
     <loc>http://yoursite.com/2018/05/06/Hexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</loc>
-    <lastmod>2018-05-06T05:40:13.252Z</lastmod>
+    <lastmod>2018-05-06T10:58:44.954Z</lastmod>
     <data>
         <display>
         <title>Hexo插入图片</title>
         <pubTime>2018-05-06T05:11:44.000Z</pubTime>
+        
+        <tag>技术</tag>
+         
+         
+           
+             
+              <breadCrumb title="study" url="http://yoursite.com/categories/study/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/04/24/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E8%BF%98%E5%8E%9FHexo/</loc>
+    <lastmod>2018-05-06T09:01:01.929Z</lastmod>
+    <data>
+        <display>
+        <title>重装系统后还原Hexo</title>
+        <pubTime>2018-04-24T04:07:53.000Z</pubTime>
         
         <tag>技术</tag>
          
@@ -78,26 +98,6 @@
            
              
               <breadCrumb title="essay" url="http://yoursite.com/categories/essay/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/04/22/%E5%9F%BA%E4%BA%8EGitHubj%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2018-05-01T09:36:31.177Z</lastmod>
-    <data>
-        <display>
-        <title>基于GitHub和Hexo搭建博客</title>
-        <pubTime>2018-04-22T15:08:41.000Z</pubTime>
-        
-        <tag>技术</tag>
-         
-         
-           
-             
-              <breadCrumb title="study" url="http://yoursite.com/categories/study/"/>
           
         </display>
     </data>
