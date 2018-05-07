@@ -7,11 +7,21 @@
 
 <html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
-  ﻿<meta charset="UTF-8"/>
+  <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
 
+<script>
+    (function(){
+        if(''){
+            if (prompt('Please enter password:') !== ''){
+                alert('Password wrong!');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
 
@@ -127,17 +137,6 @@
   };
 </script>
 
-<script>
-    (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
-                alert('密码错误！');
-                history.back();
-            }
-        }
-    })();
-</script>
-
 
 
   <link rel="canonical" href="https://www.tang-xin.top/2018/05/06/加密货币的本质/"/>
@@ -195,7 +194,6 @@
 </div>
 
 <nav class="site-nav">
-
   
 
   
@@ -515,7 +513,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/技术/" rel="tag"><i class="fa fa-tag"></i> 技术</a>
+            <a href="/tags/技术/" rel="tag"># 技术</a>
           
         </div>
       
@@ -626,7 +624,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -929,5 +927,3 @@
 
 </body>
 </html>
-<!-- ҳ����С���� -->
-<script type="text/javascript" src="/js/src/love.js"></script>
