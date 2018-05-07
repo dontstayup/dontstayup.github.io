@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[pass]]></title>
+    <url>%2F2018%2F05%2F08%2Fpass%2F</url>
+    <content type="text"><![CDATA[hahaha 加密的内容]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo插入图片]]></title>
     <url>%2F2018%2F05%2F06%2FHexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%2F</url>
     <content type="text"><![CDATA[最近写博客发现要插入大量的图片，用hexo自带的方法是在是太繁(sha)琐(bi)了,上网百(gu)度(ge)了一波，发现大佬一枚。 总结了一下这个牛批的的解决方案： 首先 将hexo的配置文件 _config.yml中的post_asset_folder:这个选项设置为true 在博客目录下启动gitbash，然后执行命令npm install hexo-asset-image--save，此插件来自dalao：dalao的git 等待安装完完成之后，在命令行里运行 hexo new post &quot;***&quot; 创建博客之后，在_post文件夹里有一个和博客名称相同的文件夹 *** 接下来 在 ***.mdv 里写博客要插入图片时，直接在要插入的地上输入: 1![***](/***/图片名.扩展名) 就可以了。 emmmmm，貌似有学到了一个技(zhuang)巧(bi)。]]></content>
