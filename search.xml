@@ -1,112 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>Hexo插入图片</title>
-      <link href="/2018/05/06/Hexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
-      <url>/2018/05/06/Hexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
-      <content type="html"><![CDATA[<p>最近写博客发现要插入大量的图片<img src="/2018/05/06/Hexo插入图片/1.jpg" alt="吐血">，用hexo自带的方法是在是太繁(sha)琐(bi)了,上网百(gu)度(ge)了一波，发现<a href="https://www.jianshu.com/p/c2ba9533088a" target="_blank" rel="noopener">大佬一枚</a>。</p><a id="more"></a><p>总结了一下这个牛批的的解决方案：</p><h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><ol><li>将hexo的配置文件 <code>_config.yml</code>中的<code>post_asset_folder:</code>这个选项设置为<code>true</code></li><li>在博客目录下启动<code>gitbash</code>，然后执行命令<code>npm install hexo-asset-image--save</code>，此插件来自dalao：<a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">dalao的git</a></li><li>等待安装完完成之后，在命令行里运行 <code>hexo new post &quot;***&quot;</code> 创建博客之后，在<code>_post</code>文件夹里有一个和博客名称相同的文件夹 <code>***</code></li></ol><h2 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h2><ol><li>在 <code>***.mdv</code> 里写博客要插入图片时，直接在要插入的地上输入:</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![***](/***/图片名.扩展名)</span><br></pre></td></tr></table></figure><p> 就可以了。</p><p>emmmmm，貌似有学到了一个技(zhuang)巧(bi)。</p><p><img src="/2018/05/06/Hexo插入图片/2.jpg" alt="装逼"></p>]]></content>
-      
+<search>
+  <entry>
+    <title><![CDATA[Hexo插入图片]]></title>
+    <url>%2F2018%2F05%2F06%2FHexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%2F</url>
+    <content type="text"><![CDATA[最近写博客发现要插入大量的图片，用hexo自带的方法是在是太繁(sha)琐(bi)了,上网百(gu)度(ge)了一波，发现大佬一枚。 总结了一下这个牛批的的解决方案： 首先 将hexo的配置文件 _config.yml中的post_asset_folder:这个选项设置为true 在博客目录下启动gitbash，然后执行命令npm install hexo-asset-image--save，此插件来自dalao：dalao的git 等待安装完完成之后，在命令行里运行 hexo new post &quot;***&quot; 创建博客之后，在_post文件夹里有一个和博客名称相同的文件夹 *** 接下来 在 ***.mdv 里写博客要插入图片时，直接在要插入的地上输入: 1![***](/***/图片名.扩展名) 就可以了。 emmmmm，貌似有学到了一个技(zhuang)巧(bi)。]]></content>
       <categories>
-          
-          <category> study </category>
-          
+        <category>study</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 技术 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>加密货币的本质</title>
-      <link href="/2018/05/06/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E7%9A%84%E6%9C%AC%E8%B4%A8/"/>
-      <url>/2018/05/06/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E7%9A%84%E6%9C%AC%E8%B4%A8/</url>
-      <content type="html"><![CDATA[<p>现在，各种加密货币（cryptocurrency）不计其数。</p><p>很多人都在问，加密货币的时代，真的来临了吗？将来会不会人类不再使用美元、人民币，改用加密货币？那么多品种，我应该使用哪一种币？要不要现在就去投资一些？</p><p><img src="/2018/05/06/加密货币的本质/1.jpg" alt="货币"></p><a id="more"></a><h2 id="一、钱是什么"><a href="#一、钱是什么" class="headerlink" title="一、钱是什么"></a>一、钱是什么</h2><p>我们都知道，人民币是钱，美元是钱，金银财宝是钱。</p><p>我问一个问题，它们为什么能成为钱？</p><p>你可能回答，因为它们有价值，或者是价值的代表。但是，有价值的东西多了，为什么只有这些品种成为了钱？<br><img src="/2018/05/06/加密货币的本质/2.jpg" alt="货币"><br>答案很容易想到，因为人们普遍相信（认同）它们的价值，其他东西的价值难以得到普通认同，无法成为钱。比如，邮票的价值就没有普遍的认同，除了集邮爱好者，其他地方都不能当钱用。一般来说，认同的人越多，这种钱的通用性就越高。<br><img src="/2018/05/06/加密货币的本质/3.jpg" alt="货币"><br>我曾经去俄罗斯旅行，当地货币是卢布。可是，一旦离开俄国，没人相信它的购买力，所以卢布离开俄国就没用了。相反，全世界人民都相信美元的价值，所以全世界都能用。我用美元付账的时候，我发现那些俄国人都很满意。<br><img src="/2018/05/06/加密货币的本质/4.jpg" alt="俄国"><br>所以，<strong>钱的本质，或者说货币的本质，就是它的可信性。</strong>它必须使人们相信，它是有价值的，然后才能成为钱，才能被收藏和支付。</p><h2 id="二、可信性"><a href="#二、可信性" class="headerlink" title="二、可信性"></a>二、可信性</h2><p>为什么钱必须是可信的？因为对方必须相信它的价值，否则你没法支付出去。</p><p>那么，接下来的问题就是，可信的东西是否就是钱？</p><p>我的回答是 <strong>Yes。一样东西能否成为钱，只取决于人们是否相信它的价值，至于它是不是真的有价值，根本不重要。</strong></p><p>如果马云在一张纸条上写”这张纸条价值10000元”，下面签了他的名，并且附上防伪标记。你说这纸条是钱吗？</p><p>我跟你保证，这就是钱，你用来支付，人们都会接受，马云等同于发行了一种新的纸币。<br><img src="/2018/05/06/加密货币的本质/5.jpg" alt="马云"><br>比特币也是如此，它是什么，其实不太重要。重要的是，它必须保证自己是可信的，这样才能让足够的人相信它的价值，然后才能成为钱。</p><h2 id="三、比特币的可信性"><a href="#三、比特币的可信性" class="headerlink" title="三、比特币的可信性"></a>三、比特币的可信性</h2><p><strong>比特币要解决的核心问题，就是创造一种可信的数字凭证。</strong>由于这种凭证可信，所以能够当做货币。</p><p>比特币的技术基础是加密学，因为只有加密学才能保证它的可信性。一旦加密被破解，它就没法当作货币了。这也是这一类数字凭证被称为”加密货币”的原因。</p><p>技术人员对比特币感兴趣，还有一个重要原因。任何需要可靠的数字凭证的场合，也许都可以用到这种技术。它是不是货币，可能不是那么重要，重要的是它背后的那些加密技术，也许有更大的应用场景。</p><h2 id="四、比特币的特点"><a href="#四、比特币的特点" class="headerlink" title="四、比特币的特点"></a>四、比特币的特点</h2><p>比特币有三个特点，保证了它的可信性。</p><p><strong>首先，它不会被（轻易）偷走。</strong>或者反过来说，它使得你无法去偷别人，你只能花你自己的钱。因为必须要有别人的私钥，才能取出他的钱。正常情况下，你拿不到别人的私钥。</p><p><strong>其次，它无法伪造。</strong>每一个比特币都能追溯来源，而所有比特币都来源于矿工获得的奖励。矿工只有新建区块，才能获得奖励，这是很难的事情，所以无法伪造比特币。</p><p><strong>最后，它无法大批生成。</strong>原因跟上一条一样，比特币的发行速度是稳定的，现在每10分钟新增12.5个，然后每四年减半，最终停止增长。因此不会像纸币那样，政府滥发导致通货膨胀。</p><h2 id="五、比特币有实体吗？"><a href="#五、比特币有实体吗？" class="headerlink" title="五、比特币有实体吗？"></a>五、比特币有实体吗？</h2><p>由于后面要提到的原因，比特币不可能拥有实体，没法做到”从口袋里掏出一个币”这种场景，交易都必须通过互联网完成。</p><p>你可能会说，钱都有实体，怎么可能存在无形的钱呢？答案正好相反，<strong>钱就应该是无形的，那些实体的钱其实是对物质材料的浪费，由于技术不够发达，不得不做成实体。</strong></p><p>我小时候买东西，都必须用现金，否则没法证明，自己拥有购买力。只有通过实体的钱，才能保证对方确实收到了钱。如果银行业发达，就不用现金了，可以使用银行卡。支付的时候，对方抄一下银行卡号码，查询银行”这个账户有钱吗”。银行回答有钱，OK，成交。</p><p>但是，互联网使得实体的银行卡也不需要了。如果存在一个开放的中央记账系统，任何人都可以查询，你把钱划到老板的账户，老板查询一下，发现收到了，交易自动成交，整个过程都是无形的，还需要什么银行卡呢？<br><img src="/2018/05/06/加密货币的本质/6.jpg" alt="  "><br>这个中央记账系统已经实现了，就叫做区块链。</p><h2 id="六、区块链的作用"><a href="#六、区块链的作用" class="headerlink" title="六、区块链的作用"></a>六、区块链的作用</h2><p><strong>区块链就是一个数据库，记载了所有的交易，用作中央记账系统，分布在无数个节点之上。</strong></p><p><strong>每笔交易的核心，就是一句话，比如”张三向李四转移了1个比特币”。</strong>为了证明这句话可信，张三为它加上了数字签名。任何人都可以用张三的公钥，证明这确实是张三本人的行为。另一方面，其他人无法伪造张三的数字签名，所以不可能伪造这笔交易。</p><p>矿工们收到这句话，首先验证数字签名的可信性，然后验证张三确实拥有这些比特币（每一笔交易都有上一笔交易的编号，用来查询比特币的来源）。验证通过以后，就着手把这句话写入区块链了。一旦写入区块链，所有人就都可以查询到，因此这笔比特币就被认为，从张三转移到了李四。<br><img src="/2018/05/06/加密货币的本质/7.png" alt="  "><br><strong>区块链的作用就是把这句话永久保存下来了，让任何人都可以查看，并且任何人（包括张三本人在内）都无法再修改了。</strong></p><p>货币是什么？其实就是这句话”张三向李四转移了1个比特币”。这一句话就完成了一次支付。我们平时用人民币支付，其实只是用纸币表达这条信息。如果每个人都可以实时写入/读取中央记账系统（区块链），那么完全可以不携带货币。</p><p><strong>数字货币的本质，就是一条可信的数据库记录。</strong>数据库记录了你拥有了多少钱，由于这个记录可信，你就真的因此拥有了这笔购买力。</p><h2 id="七、双重支出"><a href="#七、双重支出" class="headerlink" title="七、双重支出"></a>七、双重支出</h2><p>前面说过，交易不可能被伪造。但是，由于每一笔交易都是一串二进制信号，因此可能被复制。举例来说，”张三向李四转移了1个比特币”这句话，可能被其他人复制，也可能被张三自己复制，提交到区块链。</p><p><strong>如果这句话被两次写入区块链，就意味着张三可以把同一笔钱花掉两次。</strong>但是，第二次写入的时候，查询区块链可以发现张三已经把这笔钱花掉了，从而认定这是不合法的交易，不能写入区块链。因此，复制交易是不可能的。</p><p><strong>比较麻烦的是另一种情况，就是张三把同一笔钱付给两个人。</strong>他先向区块链提交一个交易”张三向李四转移了1个比特币”，然后又提交了另一个交易”张三向王五转移了1个比特币”。这两个交易都可能被认为是真实的交易，从而进入区块链。因此，必须有办法防止出现这种情况。</p><p>情况一：同一个矿工收到了这两个交易。那么他会察觉到，它们不可能同时成立，因此选择其中的一笔写入区块链。</p><p>情况二：矿工 A 收到了第一笔交易，矿工 B 收到了第二笔交易，他们各自都会认定这是合法的交易，分别把这两笔交易写入了两个区块，这时区块链就出现了分叉。<br><img src="/2018/05/06/加密货币的本质/8.png" alt="  "><br>比特币协议规定，分叉点之后最先达到6个区块的那个分支，被认定为正式的区块链，其他分支都将被放弃。由于区块的生成速度由计算能力决定，所以到底哪一笔交易最后会被写入区块链，完全由它所在的分支能吸引多少计算能力决定。<strong>隐藏的逻辑是，如果大多数人（计算能力）选择相信某一笔交易，那么它就应该是真的。</strong></p><p>综上所述，双重支出不可能发生。因为中央记账系统总有办法发现，你把同一笔钱花了两遍。但是，这也说明了比特币的一个代价，就是交易不能实时确认，必须等待至少一个小时。</p><blockquote><p><a href="http://www.ruanyifeng.com/blog/2018/01/cryptocurrency-tutorial.html" target="_blank" rel="noopener">本文来源：阮一峰的网络日志</a></p></blockquote>]]></content>
-      
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[加密货币的本质]]></title>
+    <url>%2F2018%2F05%2F06%2F%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E7%9A%84%E6%9C%AC%E8%B4%A8%2F</url>
+    <content type="text"><![CDATA[现在，各种加密货币（cryptocurrency）不计其数。 很多人都在问，加密货币的时代，真的来临了吗？将来会不会人类不再使用美元、人民币，改用加密货币？那么多品种，我应该使用哪一种币？要不要现在就去投资一些？ 一、钱是什么我们都知道，人民币是钱，美元是钱，金银财宝是钱。 我问一个问题，它们为什么能成为钱？ 你可能回答，因为它们有价值，或者是价值的代表。但是，有价值的东西多了，为什么只有这些品种成为了钱？答案很容易想到，因为人们普遍相信（认同）它们的价值，其他东西的价值难以得到普通认同，无法成为钱。比如，邮票的价值就没有普遍的认同，除了集邮爱好者，其他地方都不能当钱用。一般来说，认同的人越多，这种钱的通用性就越高。我曾经去俄罗斯旅行，当地货币是卢布。可是，一旦离开俄国，没人相信它的购买力，所以卢布离开俄国就没用了。相反，全世界人民都相信美元的价值，所以全世界都能用。我用美元付账的时候，我发现那些俄国人都很满意。所以，钱的本质，或者说货币的本质，就是它的可信性。它必须使人们相信，它是有价值的，然后才能成为钱，才能被收藏和支付。 二、可信性为什么钱必须是可信的？因为对方必须相信它的价值，否则你没法支付出去。 那么，接下来的问题就是，可信的东西是否就是钱？ 我的回答是 Yes。一样东西能否成为钱，只取决于人们是否相信它的价值，至于它是不是真的有价值，根本不重要。 如果马云在一张纸条上写”这张纸条价值10000元”，下面签了他的名，并且附上防伪标记。你说这纸条是钱吗？ 我跟你保证，这就是钱，你用来支付，人们都会接受，马云等同于发行了一种新的纸币。比特币也是如此，它是什么，其实不太重要。重要的是，它必须保证自己是可信的，这样才能让足够的人相信它的价值，然后才能成为钱。 三、比特币的可信性比特币要解决的核心问题，就是创造一种可信的数字凭证。由于这种凭证可信，所以能够当做货币。 比特币的技术基础是加密学，因为只有加密学才能保证它的可信性。一旦加密被破解，它就没法当作货币了。这也是这一类数字凭证被称为”加密货币”的原因。 技术人员对比特币感兴趣，还有一个重要原因。任何需要可靠的数字凭证的场合，也许都可以用到这种技术。它是不是货币，可能不是那么重要，重要的是它背后的那些加密技术，也许有更大的应用场景。 四、比特币的特点比特币有三个特点，保证了它的可信性。 首先，它不会被（轻易）偷走。或者反过来说，它使得你无法去偷别人，你只能花你自己的钱。因为必须要有别人的私钥，才能取出他的钱。正常情况下，你拿不到别人的私钥。 其次，它无法伪造。每一个比特币都能追溯来源，而所有比特币都来源于矿工获得的奖励。矿工只有新建区块，才能获得奖励，这是很难的事情，所以无法伪造比特币。 最后，它无法大批生成。原因跟上一条一样，比特币的发行速度是稳定的，现在每10分钟新增12.5个，然后每四年减半，最终停止增长。因此不会像纸币那样，政府滥发导致通货膨胀。 五、比特币有实体吗？由于后面要提到的原因，比特币不可能拥有实体，没法做到”从口袋里掏出一个币”这种场景，交易都必须通过互联网完成。 你可能会说，钱都有实体，怎么可能存在无形的钱呢？答案正好相反，钱就应该是无形的，那些实体的钱其实是对物质材料的浪费，由于技术不够发达，不得不做成实体。 我小时候买东西，都必须用现金，否则没法证明，自己拥有购买力。只有通过实体的钱，才能保证对方确实收到了钱。如果银行业发达，就不用现金了，可以使用银行卡。支付的时候，对方抄一下银行卡号码，查询银行”这个账户有钱吗”。银行回答有钱，OK，成交。 但是，互联网使得实体的银行卡也不需要了。如果存在一个开放的中央记账系统，任何人都可以查询，你把钱划到老板的账户，老板查询一下，发现收到了，交易自动成交，整个过程都是无形的，还需要什么银行卡呢？这个中央记账系统已经实现了，就叫做区块链。 六、区块链的作用区块链就是一个数据库，记载了所有的交易，用作中央记账系统，分布在无数个节点之上。 每笔交易的核心，就是一句话，比如”张三向李四转移了1个比特币”。为了证明这句话可信，张三为它加上了数字签名。任何人都可以用张三的公钥，证明这确实是张三本人的行为。另一方面，其他人无法伪造张三的数字签名，所以不可能伪造这笔交易。 矿工们收到这句话，首先验证数字签名的可信性，然后验证张三确实拥有这些比特币（每一笔交易都有上一笔交易的编号，用来查询比特币的来源）。验证通过以后，就着手把这句话写入区块链了。一旦写入区块链，所有人就都可以查询到，因此这笔比特币就被认为，从张三转移到了李四。区块链的作用就是把这句话永久保存下来了，让任何人都可以查看，并且任何人（包括张三本人在内）都无法再修改了。 货币是什么？其实就是这句话”张三向李四转移了1个比特币”。这一句话就完成了一次支付。我们平时用人民币支付，其实只是用纸币表达这条信息。如果每个人都可以实时写入/读取中央记账系统（区块链），那么完全可以不携带货币。 数字货币的本质，就是一条可信的数据库记录。数据库记录了你拥有了多少钱，由于这个记录可信，你就真的因此拥有了这笔购买力。 七、双重支出前面说过，交易不可能被伪造。但是，由于每一笔交易都是一串二进制信号，因此可能被复制。举例来说，”张三向李四转移了1个比特币”这句话，可能被其他人复制，也可能被张三自己复制，提交到区块链。 如果这句话被两次写入区块链，就意味着张三可以把同一笔钱花掉两次。但是，第二次写入的时候，查询区块链可以发现张三已经把这笔钱花掉了，从而认定这是不合法的交易，不能写入区块链。因此，复制交易是不可能的。 比较麻烦的是另一种情况，就是张三把同一笔钱付给两个人。他先向区块链提交一个交易”张三向李四转移了1个比特币”，然后又提交了另一个交易”张三向王五转移了1个比特币”。这两个交易都可能被认为是真实的交易，从而进入区块链。因此，必须有办法防止出现这种情况。 情况一：同一个矿工收到了这两个交易。那么他会察觉到，它们不可能同时成立，因此选择其中的一笔写入区块链。 情况二：矿工 A 收到了第一笔交易，矿工 B 收到了第二笔交易，他们各自都会认定这是合法的交易，分别把这两笔交易写入了两个区块，这时区块链就出现了分叉。比特币协议规定，分叉点之后最先达到6个区块的那个分支，被认定为正式的区块链，其他分支都将被放弃。由于区块的生成速度由计算能力决定，所以到底哪一笔交易最后会被写入区块链，完全由它所在的分支能吸引多少计算能力决定。隐藏的逻辑是，如果大多数人（计算能力）选择相信某一笔交易，那么它就应该是真的。 综上所述，双重支出不可能发生。因为中央记账系统总有办法发现，你把同一笔钱花了两遍。但是，这也说明了比特币的一个代价，就是交易不能实时确认，必须等待至少一个小时。 本文来源：阮一峰的网络日志]]></content>
       <categories>
-          
-          <category> files </category>
-          
+        <category>files</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 技术 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>中兴被美封杀</title>
-      <link href="/2018/04/24/%E4%B8%AD%E5%85%B4%E8%A2%AB%E5%B0%81%E6%9D%80%E4%BA%8B%E4%BB%B6/"/>
-      <url>/2018/04/24/%E4%B8%AD%E5%85%B4%E8%A2%AB%E5%B0%81%E6%9D%80%E4%BA%8B%E4%BB%B6/</url>
-      <content type="html"><![CDATA[<p><strong> 当地时间4月16日，美国商务部网站公告，7年内禁止美国企业向中兴通讯出口任何技术、产品。公告称，中兴通讯违反了2017年与美国政府达成的和解协议。当时，美国政府指控中兴通讯违反美对伊朗的出口管制政策。</strong></p><a id="more"></a><p>　　中兴通讯事件再次暴露出中国在一些关键核心技术上受制于人的软肋，自主知识产权的高端芯片远不能自给自足的严峻现状，对于中兴通讯这样的大型企业来说，也面临着三个月内破产倒闭的风险。</p><h2 id="什么才是国家的核心竞争力"><a href="#什么才是国家的核心竞争力" class="headerlink" title="什么才是国家的核心竞争力"></a>什么才是国家的核心竞争力</h2><p>　　此次中兴通讯事件只是再一次给国人敲响了警钟：什么才是一个国家的核心竞争力？<br>　　在此次事件之前，很多键盘侠都不知道中国有几斤几两，看着房地产、金融和互联网的繁荣，就以为中国已经天下无敌，这次事件则一下拔下中国虚假繁荣的底裤，只要在芯片上卡住你的脖子，你的支柱企业就会破产倒闭，实业都倒闭了后，房地产、金融和互联网就蹦达不了多久了。<br>　　看看中兴目前的惨状，确实是遭到了灭顶之灾，中兴跪在地上求着美国缴9亿美元罚款都无法解围，9亿美元，相当于一个不错的中等企业一年的销售额。中兴从成立到现在，尚未创造过能与这个数字相匹配的净利润。从2010年至2016年，中兴全部利润加起来有73.115亿元，中兴缴纳和被暂缓的两笔罚金，高达11.92亿美元，折合人民币超82亿元。对于中兴通讯和其9万名员工来说，现在的确是到了生死存亡的关键时刻了。<br>　　美媒福布斯评论指出，中兴通讯基本上死定了，在无法贩售任何产品、错过5G发展转型的情况下，中兴通讯将会在未来几周内申请破产。对于中兴通讯这样一个拥有九万多员工的大型企业，如果在美国的这次打击中破产，那么中美贸易战的第一回合的胜利就属于美国了。<br>　　让中兴认罚的主要原因并非美国市场，而是美国的芯片，如果没有美国芯片进口，中兴将寸步难移，这也是中兴冒着那么大屈辱，委曲求全，与美国政府和解，甘愿受罚的根本原因。如果中兴芯片研发能力很强，能够自给自足，那就没必要接受这样的罚款。<br>　　虽然中兴是世界第四大通信设备公司，但其命脉却一直被美国人捏在手里，核心技术受制于人是中兴最大的隐患。<br>　　什么是一个国家的核心竞争力，这就是。</p><h2 id="资本市场吸血制造业"><a href="#资本市场吸血制造业" class="headerlink" title="资本市场吸血制造业"></a>资本市场吸血制造业</h2><p>　　中兴事件之后，很多人才发现制造业的重要性，早干什么去了呢？对于中兴华为这样的关键企业，政府的支持实在太少，甚至还利用金融和房地产从这些企业身上吸血，这些年华为被逼从深圳迁移到东莞，不就是因为房地产的吸血吗？这些年中国的高房价始终把制造业的血抽给房地产，最终的得意者是土地供给者和房产拥有者，辛辛苦苦干一年实业，还不如别人炒房的零头，人心散了，中国制造的竞争力就下去了。<br>　　目前，所有的芯片概念股当前总市值和贵州茅台一个企业的市值差不多，反观美国，美国市值前5名的公司都是高科技公司，中国没有利用股市这样的资本市场为高科技输血，反而逼迫中国的高科技公司纷纷去美国上市，这就是畸形的发展。<br>　　华为和中兴这几十年在深圳的发展我们都看着呢，这些做实业的辛辛苦苦干了十多年，最后要因为深圳地价贵员工买不起房而将公司迁移到东莞，华为都迁走一半了，钱都被搞金融和房地产的赚走了，实业谁还去做。</p><h2 id="人才是关键"><a href="#人才是关键" class="headerlink" title="人才是关键"></a>人才是关键</h2><p>　　从长远看，人才的培养是绕不过去的关卡。中国的芯片为什么做不起来？缺少人才，芯片工程师的工资低，待遇差，做硬件的工程师，技术含量高，干活累，挣的钱还不如那些写游戏APP搞互联网的，于是这些工程师要么转行做游戏开发、要么转行APP开发、要么转行互联网或转行金融，毕竟人活着是要买房吃饭娶老婆的。最终结果是，芯片行业的人才大量流失，没有了人才，这个行业怎么发展？<br>　　芯片业非常不好搞，风险很大的长远投资，特别是现在美国芯片业这么发达，搞芯片的中国企业很可能会长期亏损，在市场上也会处处碰壁，这就需要国家长期的支持和投资，这么重要的行业国家不去搞谁去搞，难道让企业赔本去搞？企业当然会选择赚快钱，毕竟企业不是活雷锋。<br>　　总的来说，吃一堑长一智，亡羊补牢，为时未晚，九万员工的中兴如果破产倒闭，带来的冲击和镇痛是难免的，但如果能从中吸取到教训，面对技术差距，激发自强的心态与能力，通过自力更生掌握核心技术，那就有可能把挑战变成机遇，用现在的短痛换来长远的机遇。</p><blockquote><p>文章来源：月光博客，<a href="http://www.williamlong.info/archives/5314.html" target="_blank" rel="noopener">http://www.williamlong.info/archives/5314.html</a></p></blockquote>]]></content>
-      
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[中兴被美封杀]]></title>
+    <url>%2F2018%2F04%2F24%2F%E4%B8%AD%E5%85%B4%E8%A2%AB%E5%B0%81%E6%9D%80%E4%BA%8B%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[当地时间4月16日，美国商务部网站公告，7年内禁止美国企业向中兴通讯出口任何技术、产品。公告称，中兴通讯违反了2017年与美国政府达成的和解协议。当时，美国政府指控中兴通讯违反美对伊朗的出口管制政策。 中兴通讯事件再次暴露出中国在一些关键核心技术上受制于人的软肋，自主知识产权的高端芯片远不能自给自足的严峻现状，对于中兴通讯这样的大型企业来说，也面临着三个月内破产倒闭的风险。 什么才是国家的核心竞争力 此次中兴通讯事件只是再一次给国人敲响了警钟：什么才是一个国家的核心竞争力？ 在此次事件之前，很多键盘侠都不知道中国有几斤几两，看着房地产、金融和互联网的繁荣，就以为中国已经天下无敌，这次事件则一下拔下中国虚假繁荣的底裤，只要在芯片上卡住你的脖子，你的支柱企业就会破产倒闭，实业都倒闭了后，房地产、金融和互联网就蹦达不了多久了。 看看中兴目前的惨状，确实是遭到了灭顶之灾，中兴跪在地上求着美国缴9亿美元罚款都无法解围，9亿美元，相当于一个不错的中等企业一年的销售额。中兴从成立到现在，尚未创造过能与这个数字相匹配的净利润。从2010年至2016年，中兴全部利润加起来有73.115亿元，中兴缴纳和被暂缓的两笔罚金，高达11.92亿美元，折合人民币超82亿元。对于中兴通讯和其9万名员工来说，现在的确是到了生死存亡的关键时刻了。 美媒福布斯评论指出，中兴通讯基本上死定了，在无法贩售任何产品、错过5G发展转型的情况下，中兴通讯将会在未来几周内申请破产。对于中兴通讯这样一个拥有九万多员工的大型企业，如果在美国的这次打击中破产，那么中美贸易战的第一回合的胜利就属于美国了。 让中兴认罚的主要原因并非美国市场，而是美国的芯片，如果没有美国芯片进口，中兴将寸步难移，这也是中兴冒着那么大屈辱，委曲求全，与美国政府和解，甘愿受罚的根本原因。如果中兴芯片研发能力很强，能够自给自足，那就没必要接受这样的罚款。 虽然中兴是世界第四大通信设备公司，但其命脉却一直被美国人捏在手里，核心技术受制于人是中兴最大的隐患。 什么是一个国家的核心竞争力，这就是。 资本市场吸血制造业 中兴事件之后，很多人才发现制造业的重要性，早干什么去了呢？对于中兴华为这样的关键企业，政府的支持实在太少，甚至还利用金融和房地产从这些企业身上吸血，这些年华为被逼从深圳迁移到东莞，不就是因为房地产的吸血吗？这些年中国的高房价始终把制造业的血抽给房地产，最终的得意者是土地供给者和房产拥有者，辛辛苦苦干一年实业，还不如别人炒房的零头，人心散了，中国制造的竞争力就下去了。 目前，所有的芯片概念股当前总市值和贵州茅台一个企业的市值差不多，反观美国，美国市值前5名的公司都是高科技公司，中国没有利用股市这样的资本市场为高科技输血，反而逼迫中国的高科技公司纷纷去美国上市，这就是畸形的发展。 华为和中兴这几十年在深圳的发展我们都看着呢，这些做实业的辛辛苦苦干了十多年，最后要因为深圳地价贵员工买不起房而将公司迁移到东莞，华为都迁走一半了，钱都被搞金融和房地产的赚走了，实业谁还去做。 人才是关键 从长远看，人才的培养是绕不过去的关卡。中国的芯片为什么做不起来？缺少人才，芯片工程师的工资低，待遇差，做硬件的工程师，技术含量高，干活累，挣的钱还不如那些写游戏APP搞互联网的，于是这些工程师要么转行做游戏开发、要么转行APP开发、要么转行互联网或转行金融，毕竟人活着是要买房吃饭娶老婆的。最终结果是，芯片行业的人才大量流失，没有了人才，这个行业怎么发展？ 芯片业非常不好搞，风险很大的长远投资，特别是现在美国芯片业这么发达，搞芯片的中国企业很可能会长期亏损，在市场上也会处处碰壁，这就需要国家长期的支持和投资，这么重要的行业国家不去搞谁去搞，难道让企业赔本去搞？企业当然会选择赚快钱，毕竟企业不是活雷锋。 总的来说，吃一堑长一智，亡羊补牢，为时未晚，九万员工的中兴如果破产倒闭，带来的冲击和镇痛是难免的，但如果能从中吸取到教训，面对技术差距，激发自强的心态与能力，通过自力更生掌握核心技术，那就有可能把挑战变成机遇，用现在的短痛换来长远的机遇。 文章来源：月光博客，http://www.williamlong.info/archives/5314.html]]></content>
       <categories>
-          
-          <category> essay </category>
-          
+        <category>essay</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 评论 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>重装系统后还原Hexo</title>
-      <link href="/2018/04/24/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E8%BF%98%E5%8E%9FHexo/"/>
-      <url>/2018/04/24/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E8%BF%98%E5%8E%9FHexo/</url>
-      <content type="html"><![CDATA[<p><strong>因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。</strong></p><a id="more"></a><p><code>git</code>和<code>Node.js</code>肯定是要重新安装的了，然后是生成新的<code>ssh key</code>,并把<code>id_rsa.pub</code>中的内容复制到Github的ssh中。<br>网上查阅相关资料，发现只要重新创建一个<code>hexo项目</code>然后将你备份的hexo博客数据根目录下的配置文件<code>_config.yml</code>还有<code>themes</code>主题文件夹和模板文件夹<code>scaffolds</code>覆盖到新建的项目中即可，因为是重新安装的git，所以还要重新执行如下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name=<span class="string">"dontstayup"</span></span><br><span class="line">$ git config --global user.email=<span class="string">"tangxin@tang-xin.top"</span></span><br></pre></td></tr></table></figure><p>如果<code>hexo d</code>命令失效的话，执行一下命令安装扩展：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>然后又可以开始写博客了。 ♪(^∇^*)</p>]]></content>
-      
+      <tags>
+        <tag>评论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[重装系统后还原Hexo]]></title>
+    <url>%2F2018%2F04%2F24%2F%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E8%BF%98%E5%8E%9FHexo%2F</url>
+    <content type="text"><![CDATA[因为手残更新了windows，系统非常不稳定时常崩溃，不得已只能重装系统了。重装系统之后第一件事就是重新安装hexo。 git和Node.js肯定是要重新安装的了，然后是生成新的ssh key,并把id_rsa.pub中的内容复制到Github的ssh中。网上查阅相关资料，发现只要重新创建一个hexo项目然后将你备份的hexo博客数据根目录下的配置文件_config.yml还有themes主题文件夹和模板文件夹scaffolds覆盖到新建的项目中即可，因为是重新安装的git，所以还要重新执行如下命令： 12$ git config --global user.name="dontstayup"$ git config --global user.email="tangxin@tang-xin.top" 如果hexo d命令失效的话，执行一下命令安装扩展： 1$ npm install hexo-deployer-git --save 然后又可以开始写博客了。 ♪(^∇^*)]]></content>
       <categories>
-          
-          <category> study </category>
-          
+        <category>study</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 技术 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>基于GitHub和Hexo搭建博客</title>
-      <link href="/2018/04/22/%E5%9F%BA%E4%BA%8EGitHubj%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2018/04/22/%E5%9F%BA%E4%BA%8EGitHubj%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
-      <content type="html"><![CDATA[<p>搞了一下午终于把博客给搭建好了，也顺便把博客的搭建过程记录下来。同时这也是第一篇正式博文哦。</p><a id="more"></a><hr><h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ol><li>博客是基于<code>GitHub</code>和<code>Hexo</code>，那就少不了安装点什么东西了。<code>hexo</code>基于<code>Node.js</code>的，<a href="https://nodejs.org/en/" target="_blank" rel="noopener">官网下载</a>,傻瓜化安装一路next就可以了。通过 <code>node -v</code> 来测试是否安装成功，安装成功会显示版本号。</li><li>接下来是<code>Git</code><a href="https://git-scm.com/" target="_blank" rel="noopener">下载地址</a>直接到官网下载相应的版本，进行安装即可。安装完成后通过 <code>git -version</code>来测试安装是否成功。</li><li>接下来就是<code>注册Git 账号</code>了, 直接去<code>Git 官网</code>注册即可。注册完成后记得添加<code>SSh Key</code>，ssh key是用于认证，让github绑定到你这台机器。<br><strong>产生新的ssh key</strong><br>在<code>Git Bash</code>中执行：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"tangxin@tang-xin.top"</span></span><br></pre></td></tr></table></figure></li></ol><p>记得修改成你自己的邮箱地址哦。<br>之后将会在<code>C:\Users\你的账户名\.ssh</code>文件夹下生成<code>id_rsa</code>和<code>id_rsa.pub</code>两个文件。前者是私钥，后者是公钥。用记事本把公钥打开，复制里面的内容到github的添加ssh key中完成添加。</p><h2 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h2><p>安装Hexo<br>在本地磁盘中新建一个文件夹(例如eBlog)，然后对着它右键单击，选择<code>Git Bash</code>，之后就会出现命令窗口，在命令窗口里输入如下指令安装hexo：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install  -g hexo</span><br></pre></td></tr></table></figure></p><p>等待安装完毕，通过输入<code>hexo</code>的命令来测试Hexo是否安装成功。安装成功会出现以下结果：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">Usage: hexo &lt;<span class="built_in">command</span>&gt;</span><br><span class="line"></span><br><span class="line">Commands:</span><br><span class="line">  clean     Remove generated files and cache.</span><br><span class="line">  config    Get or <span class="built_in">set</span> configurations.</span><br><span class="line">  deploy    Deploy your website.</span><br><span class="line">  generate  Generate static files.</span><br><span class="line">  <span class="built_in">help</span>      Get <span class="built_in">help</span> on a <span class="built_in">command</span>.</span><br><span class="line">  init      Create a new Hexo folder.</span><br><span class="line">  list      List the information of the site</span><br><span class="line">  migrate   Migrate your site from other system to Hexo.</span><br><span class="line">  new       Create a new post.</span><br><span class="line">  publish   Moves a draft post from _drafts to _posts folder.</span><br><span class="line">  render    Render files with renderer plugins.</span><br><span class="line">  server    Start the server.</span><br><span class="line">  version   Display version information.</span><br><span class="line"></span><br><span class="line">Global Options:</span><br><span class="line">  --config  Specify config file instead of using _config.yml</span><br><span class="line">  --cwd     Specify the CWD</span><br><span class="line">  --debug   Display all verbose messages <span class="keyword">in</span> the terminal</span><br><span class="line">  --draft   Display draft posts</span><br><span class="line">  --safe    Disable all plugins and scripts</span><br><span class="line">  --silent  Hide output on console</span><br><span class="line"></span><br><span class="line">For more <span class="built_in">help</span>, you can use <span class="string">'hexo help [command]'</span> <span class="keyword">for</span> the detailed information</span><br><span class="line">or you can check the docs: http://hexo.io/docs/</span><br></pre></td></tr></table></figure></p><p>接着初始化Hexo：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init hexo</span><br></pre></td></tr></table></figure></p><p>初始化成功后会显示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO Start blogging with Hexo!</span><br></pre></td></tr></table></figure></p><p>这时在你创建的<code>eBlog</code>文件夹里多出一个<code>hexo</code>文件夹，之后进入hexo文件夹里：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> hexo</span><br></pre></td></tr></table></figure></p><p>安装依赖文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></p><p>部署形成文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure></p><p>最后运行hexo服务就可以在本地看到搭建的博客了：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></p><p>显示如下结果：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tangxin@LAPTOP-Tx MINGW64 /e/Gblog/hexo</span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure></p><p>这时打开浏览器输入<code>http://localhost:4000/</code>就可以看到结果了。</p><h2 id="配置GitHub-Page"><a href="#配置GitHub-Page" class="headerlink" title="配置GitHub Page"></a>配置GitHub Page</h2><p>这个挺简单的，添加一个仓库<code>New repository</code>，但要注意的是仓库名一定是<code>你的GitHub户名.github.io</code>格式</p><h3 id="启用GitHub-Page"><a href="#启用GitHub-Page" class="headerlink" title="启用GitHub Page"></a>启用GitHub Page</h3><p>点击右边的“Setting”菜单进入设置,点击”Launch automatic page generator”<br>进入之后点击底部的”Continue to layouts”<br>之后随意选择模版，点击”Publish page”,发布github默认生成的一个静态站点<br>打开自己在github的静态网址，我的<a href="http://dontstayup.github.io" target="_blank" rel="noopener">http://dontstayup.github.io</a></p><h2 id="将hexo项目托管到Github上"><a href="#将hexo项目托管到Github上" class="headerlink" title="将hexo项目托管到Github上"></a>将hexo项目托管到Github上</h2><p>用文本编辑器打开并修改hexo目录下的配置文件：<code>_config.yml</code>，我的文件地址是：<code>E:\Gblog\hexo\_config.yml</code>, 编辑最后面的<code>deploy</code>属性，加入一下代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repository: https://github.com/dontstayup/dontstayup.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p><p><strong>注</strong></p><blockquote><p>type使用的是git<br>分支branch填写master<br>其他的根据自己需要修改了</p></blockquote><h3 id="安装hexo-deployer-git插件"><a href="#安装hexo-deployer-git插件" class="headerlink" title="安装hexo-deployer-git插件"></a>安装<code>hexo-deployer-git</code>插件</h3><p>执行一下命令即可：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p><p>每次更换主题或者写了文章执行一下代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean <span class="comment">#清理发布文件夹及文件</span></span><br><span class="line">hexo generator <span class="comment">#生成发布文件 简写 hexo g</span></span><br><span class="line">hexo deploy <span class="comment">#发布到github上 简写 hexo d</span></span><br></pre></td></tr></table></figure></p><p>最后可以到github page上看效果了，我的github page 网址是：<code>http://dontstayup.github.io</code></p><p><strong>如果是绑定了自己的域名的还要在source文件夹下创立CNAME文件填写自己的域名，省的每次都要从新设置跳转</strong></p>]]></content>
-      
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[基于GitHub和Hexo搭建博客]]></title>
+    <url>%2F2018%2F04%2F22%2F%E5%9F%BA%E4%BA%8EGitHubj%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[搞了一下午终于把博客给搭建好了，也顺便把博客的搭建过程记录下来。同时这也是第一篇正式博文哦。 准备工具 博客是基于GitHub和Hexo，那就少不了安装点什么东西了。hexo基于Node.js的，官网下载,傻瓜化安装一路next就可以了。通过 node -v 来测试是否安装成功，安装成功会显示版本号。 接下来是Git下载地址直接到官网下载相应的版本，进行安装即可。安装完成后通过 git -version来测试安装是否成功。 接下来就是注册Git 账号了, 直接去Git 官网注册即可。注册完成后记得添加SSh Key，ssh key是用于认证，让github绑定到你这台机器。产生新的ssh key在Git Bash中执行：1ssh-keygen -t rsa -C "tangxin@tang-xin.top" 记得修改成你自己的邮箱地址哦。之后将会在C:\Users\你的账户名\.ssh文件夹下生成id_rsa和id_rsa.pub两个文件。前者是私钥，后者是公钥。用记事本把公钥打开，复制里面的内容到github的添加ssh key中完成添加。 搭建博客安装Hexo在本地磁盘中新建一个文件夹(例如eBlog)，然后对着它右键单击，选择Git Bash，之后就会出现命令窗口，在命令窗口里输入如下指令安装hexo：1$ npm install -g hexo 等待安装完毕，通过输入hexo的命令来测试Hexo是否安装成功。安装成功会出现以下结果：123456789101112131415161718192021222324252627Usage: hexo &lt;command&gt;Commands: clean Remove generated files and cache. config Get or set configurations. deploy Deploy your website. generate Generate static files. help Get help on a command. init Create a new Hexo folder. list List the information of the site migrate Migrate your site from other system to Hexo. new Create a new post. publish Moves a draft post from _drafts to _posts folder. render Render files with renderer plugins. server Start the server. version Display version information.Global Options: --config Specify config file instead of using _config.yml --cwd Specify the CWD --debug Display all verbose messages in the terminal --draft Display draft posts --safe Disable all plugins and scripts --silent Hide output on consoleFor more help, you can use 'hexo help [command]' for the detailed informationor you can check the docs: http://hexo.io/docs/ 接着初始化Hexo：1hexo init hexo 初始化成功后会显示：1INFO Start blogging with Hexo! 这时在你创建的eBlog文件夹里多出一个hexo文件夹，之后进入hexo文件夹里：1cd hexo 安装依赖文件：1npm install 部署形成文件：1hexo generate 最后运行hexo服务就可以在本地看到搭建的博客了：1hexo server 显示如下结果：1234tangxin@LAPTOP-Tx MINGW64 /e/Gblog/hexo$ hexo serverINFO Start processingINFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop. 这时打开浏览器输入http://localhost:4000/就可以看到结果了。 配置GitHub Page这个挺简单的，添加一个仓库New repository，但要注意的是仓库名一定是你的GitHub户名.github.io格式 启用GitHub Page点击右边的“Setting”菜单进入设置,点击”Launch automatic page generator”进入之后点击底部的”Continue to layouts”之后随意选择模版，点击”Publish page”,发布github默认生成的一个静态站点打开自己在github的静态网址，我的http://dontstayup.github.io 将hexo项目托管到Github上用文本编辑器打开并修改hexo目录下的配置文件：_config.yml，我的文件地址是：E:\Gblog\hexo\_config.yml, 编辑最后面的deploy属性，加入一下代码：1234deploy: type: git repository: https://github.com/dontstayup/dontstayup.github.io.git branch: master 注 type使用的是git分支branch填写master其他的根据自己需要修改了 安装hexo-deployer-git插件执行一下命令即可：1npm install hexo-deployer-git --save 每次更换主题或者写了文章执行一下代码：123hexo clean #清理发布文件夹及文件hexo generator #生成发布文件 简写 hexo ghexo deploy #发布到github上 简写 hexo d 最后可以到github page上看效果了，我的github page 网址是：http://dontstayup.github.io 如果是绑定了自己的域名的还要在source文件夹下创立CNAME文件填写自己的域名，省的每次都要从新设置跳转]]></content>
       <categories>
-          
-          <category> study </category>
-          
+        <category>study</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 技术 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-  
-  
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
 </search>
