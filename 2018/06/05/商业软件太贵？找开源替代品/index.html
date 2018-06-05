@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('Please enter password:') !== ''){
+                alert('Password wrong!');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="软件," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="摘要：某些商业软件素以昂贵著称。随着云计算的日益普及，很多常用软件包供应商将一次性收费改为月租模式。虽然月租费貌似便宜，但长时间累积起来的租金还是很高的。这个时候我们就该考虑是否将目光转移到开源替代品上。">
+<meta name="keywords" content="软件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="商业软件太贵？找开源替代品">
+<meta property="og:url" content="https://www.tang-xin.top/2018/06/05/商业软件太贵？找开源替代品/index.html">
+<meta property="og:site_name" content="NO.0&#39;s Blog">
+<meta property="og:description" content="摘要：某些商业软件素以昂贵著称。随着云计算的日益普及，很多常用软件包供应商将一次性收费改为月租模式。虽然月租费貌似便宜，但长时间累积起来的租金还是很高的。这个时候我们就该考虑是否将目光转移到开源替代品上。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://www.tang-xin.top/2018/06/05/商业软件太贵？找开源替代品/1.jpg">
+<meta property="og:image" content="https://www.tang-xin.top/2018/06/05/商业软件太贵？找开源替代品/2.jpg">
+<meta property="og:updated_time" content="2018-06-05T15:46:39.096Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="商业软件太贵？找开源替代品">
+<meta name="twitter:description" content="摘要：某些商业软件素以昂贵著称。随着云计算的日益普及，很多常用软件包供应商将一次性收费改为月租模式。虽然月租费貌似便宜，但长时间累积起来的租金还是很高的。这个时候我们就该考虑是否将目光转移到开源替代品上。">
+<meta name="twitter:image" content="https://www.tang-xin.top/2018/06/05/商业软件太贵？找开源替代品/1.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://www.tang-xin.top/2018/06/05/商业软件太贵？找开源替代品/"/>
+
+
+
+
+
+  <title>商业软件太贵？找开源替代品 | NO.0's Blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/src/fireworks.js"></script>
+
+
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">NO.0's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-学习">
+          <a href="/categories/study" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            学习
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-档案">
+          <a href="/categories/files" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            档案
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-随笔">
+          <a href="/categories/essay" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            随笔
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-友链">
+          <a href="/友链/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            友链
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.tang-xin.top/2018/06/05/商业软件太贵？找开源替代品/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="NO.0">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="NO.0's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">商业软件太贵？找开源替代品</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-05T23:36:54+08:00">
+                2018-06-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/files/" itemprop="url" rel="index">
+                    <span itemprop="name">files</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/2018/06/05/商业软件太贵？找开源替代品/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/06/05/商业软件太贵？找开源替代品/" itemprop="commentsCount"></span>
+                </a>
+              
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>摘要：某些商业软件素以昂贵著称。随着云计算的日益普及，很多常用软件包供应商将一次性收费改为月租模式。虽然月租费貌似便宜，但长时间累积起来的租金还是很高的。这个时候我们就该考虑是否将目光转移到开源替代品上。 </p>
+</blockquote>
+<a id="more"></a>
+<p>100个替代昂贵商业软件的开源应用面对大，中，小企业和家庭用户，立竿见影显著降低成本的开源软件。某些商业软件素以昂贵著称。随着云计算的日益普及，很多常用软件包供应商将一次性收费改为月租模式。虽然月租费貌似便宜，但也经不起长时间的累积。<br><img src="/2018/06/05/商业软件太贵？找开源替代品/1.jpg" alt=" "><br>尽管有许多好理由，但避免或减少使用费，仍然是许多用户看中开源应用软件的主要因素。基于这一点，我们更新了可替代昂贵闭源应用的开源应用软件年度清单。</p>
+<p>今年的软件数量比以往任何时候都多， 入选的100个软件不失为大中小型企业和家庭用户的上佳选择。只要有可能，我们会提供相应付费软件的价格。请注意，虽然我们清单上的开源应用程序提供与其替代的闭源应用相对等的功能，但它们并不等同于彼此。</p>
+<p>与往常一样，请使用每页下方的注释部分，提供你所了解的应该列入我们清单内的其它开源应用程序。<br><img src="/2018/06/05/商业软件太贵？找开源替代品/2.jpg" alt=" "></p>
+<h2 id="财会类软件"><a href="#财会类软件" class="headerlink" title="财会类软件"></a>财会类软件</h2><ol>
+<li><p>Edoceo Imperium：专为中小型企业（SMB）开发的 Edoceo Imperium 将会计、发票和基本的客户关系管理（CRM）功能结合并集成了谷歌的日历，地图和电子邮件（Gmail）功能，支持多达四十亿个不同访问级别的用户。支持的操作系统：无限制</p>
+</li>
+<li><p>FrontAccounting：同样为中小企业设计的 FrontAccounting 包括一些基本的企业资源规划（ERP）功能，如库存和生产跟踪。该公司网站提供帮助潜在用户体验其产品的演示。支持的操作系统：无限制</p>
+</li>
+<li><p>TurboCASH：这一会计软件包旨在提供大多数中小企业所需的全部功能包括债务，债权，总帐，库存管理，发票， 调账，试算表和报告等。支持多公司和多用户。支持的操作系统：Windows</p>
+</li>
+<li><p>XIWA：仅在 Linux 环境运行的 XIWA 意为 ” XIWA 是网络会计”。 自1999年开发至今，它具有支持多用户和多公司，工资，股票/投资跟踪，报表等功能。支持的操作系统：Linux</p>
+</li>
+</ol>
+<h2 id="录音-编辑类软件"><a href="#录音-编辑类软件" class="headerlink" title="录音/编辑类软件"></a>录音/编辑类软件</h2><ol>
+<li><p>Ardour：为满足专业人士的需要而开发，Ardour 提供全套录音，编辑和混音工具。主要特点包括无限量音轨和数据总线，支持破坏性/非破坏性编辑录音模式，支持数十种文件格式，“业内最灵活的混音器架构”，数以百计的插件，精确自动化采样，视频时间轴和更多的支持。支持的操作系统：Linux，OS X</p>
+</li>
+<li><p>Audacity 是一个易于使用的录音和编辑应用程序，对于业余音乐人和家庭用户是一个很好的选择。它可将磁带，唱片和光盘转换成数字文件，并支持 WAV，AIFF，FLAC，MP2，MP3 或 Ogg Vorbis 文件格式。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>Frinika 自称为一个“完整的音乐工作站”。它的用户界面和功能的先进性尚未达到一些专业人士的要求，但它提供音序控制，MIDI 接口支持, 软件合成，录音和乐谱编辑等功能。支持的操作系统：无限制</p>
+</li>
+<li><p>Linux MultiMedia Studio (LMMS) 包括歌曲编辑，节拍和贝斯编辑，钢琴卷帘窗，64通道 FX 调音和更多功能。最初为 Linux 开发，现有 Windows 版本。支持的操作系统：Windows 和 Linux</p>
+</li>
+<li><p>WaveShop：与前面几个功能齐全的软件相比，只在 Windows 环境下运行的 WaveShop 强调快速和小巧。值得关注的特点包括调音，淡化，采样率转换，音频生成，无限量撤销，广泛的帮助，峰值，方均根（RMS）和频谱分析。支持的操作系统：Windows</p>
+</li>
+</ol>
+<h2 id="商业智能类软件"><a href="#商业智能类软件" class="headerlink" title="商业智能类软件"></a>商业智能类软件</h2><ol>
+<li><p>JasperSoft：作为最流行的开源商业智能工具之一，JasperSoft 提供可视化企业信息仪表板，自助报表，丰富的分析，移动支持等更多功能。该公司还在 Jaspersoft.com 提供付费的商业版本。支持的操作系统：无限制</p>
+</li>
+<li><p>Jedox：原名 Palo BI 的 Jedox 是一个完整的商业智能套件，包括一个联机分析处理(OLAP)服务器，Excel 插件，数据提取，转换和加载（ETL）和移动支持。基础版本只包括联机分析处理(OLAP)服务器和有限版 Excel 插件，可在开源许可证下免费使用。企业內部部署和云版本需付费。支持的操作系统：无限制</p>
+</li>
+<li><p>Pentaho 提供数据集成，业务分析和大数据工具。开源社区版本可从 community.pentaho.com 下载。 用户包括汉莎航空，哈里伯顿，纳斯达克和江户国际等企业。 支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>Spago 声称是“唯一100％开源的，完整和灵活的商业智能套件。”它建立在其它开源项目的广泛基础上，提供模块化的报表，联机分析处理(OLAP)，图表，关键性能指标（KPI），互动管理驾驶舱，自助报表，位置智能，数据挖掘，信息仪表板，团队协作，数据提取，转换和加载（ETL），主数据管理等等。支持的操作系统：无限制</p>
+</li>
+<li><p>KNIME：用户遍及60多个国家，KNIME 自称是“领先的数据驱动创新开放平台帮助企业引领变革。”其核心分析软件为开源免费，商业扩展则为有偿服务。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>OpenI：这一插件扩展了 Pentaho 和 Jasper 的分析工具能力承诺让新用户在短短72小时内运行起来。它包括信息仪表板，交互式报表，数据提取，转换和加载（ETL），维度模型（dimensional modeling），多维联机分析处理(OLAP)设计和预测建模。支持的操作系统：无限制</p>
+</li>
+<li><p>BIRT：功能范围略逊于清单上的其它软件，BIRT 专注于报表创建和可视化嵌入式应用。它的赞助公司为Actuate（提供各种相关的资源），Innovent Solutions 和 IBM。需要注意的是，你需要在 Eclipse 开发环境下使用它。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+</ol>
+<h2 id="业务流程管理类软件"><a href="#业务流程管理类软件" class="headerlink" title="业务流程管理类软件"></a>业务流程管理类软件</h2><ol>
+<li><p>ProcessMaker 自称为“＃1开源工作流和业务流程管理（BPM）软件”提供了工作流程建模和运行，报表创建和工作流程优化工具。 除了开源版本，它还有基于企业內部部署和云的付费版本。支持的操作系统：Windows 和 Linux</p>
+</li>
+<li><p>Activiti：基于Java的 Activiti 的特点为尺寸小，运行快。Alfresco 公司可为它提供付费支持。支持的操作系统：无限制</p>
+</li>
+<li><p>Bonita 是一个完整业务流程管理（BPM）套件，包括组织结构图，数据结构定义，用户界面构建，可执行报表创建等众多工具。除了免费的社区版，它的 “团队合作”，“提高效率”和“能力拓展“付费版本可提供相应的增强功能。支持的操作系统：无限制</p>
+</li>
+</ol>
+<h2 id="计算机辅助设计类软件"><a href="#计算机辅助设计类软件" class="headerlink" title="计算机辅助设计类软件"></a>计算机辅助设计类软件</h2><p>在过去的二十多年里，美军已使用该软件中的400多个工具对其武器系统进行模拟并分析其杀伤力。其主要功能包括交互式三维实体轮廓编辑，高性能光线追踪，网络分布式帧缓存支持，图像和信号处理工具，路径跟踪和光子映射支持，系统性能分析基准套件，嵌入式脚本界面等。支持的操作系统：Windows，Linux 和 OS X</p>
+<ol>
+<li><p>FreeCAD 是易于使用的三维参数化建模工具专为家庭用户和发烧友设计。其模块化架构十分便于定制和扩展。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>Archimedes 是基于 Eclipse 的富客户端平台（Rich Client Platform），每周下载量达数百次的阿基米德(Archimedes)提供了最小功能集的计算机辅助设计（CAD）简化解决方案。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+</ol>
+<h2 id="客户关系管理类软件"><a href="#客户关系管理类软件" class="headerlink" title="客户关系管理类软件"></a>客户关系管理类软件</h2><ol>
+<li><p>Sugar Community Edition：世界各地数以百万计的用户使用 Sugar 提供的工具将销售，营销和支持团队与潜在客户和客户联系到一起。付费的云版本可以在 SugarCRM.com 找到。支持的操作系统：无限制</p>
+</li>
+<li><p>vTiger Replaces Sage ACT!：超过10,000个组织在使用这个客户关系管理（CRM）套件。其功能包括电子邮件营销，项目管理，客户门户，日历，任务管理，报告，文件管理，访问控制，库存管理等。其云版本为付费版本。 支持的操作系统：Windows，Linux，iOS， Android</p>
+</li>
+<li><p>Orange Leap Replaces Sage ACT!：原名 MpowerOpen 的 Orange Leap 提供社团成员关系管理帮助非营利组织开展筹款活动。源代码可从 SourceForge 下载。支持的操作系统：Windows。</p>
+</li>
+<li><p>SourceTap 旨在帮助销售团队改善预测准确度，提高交易成功率，缩短销售周期，增强协作和辨识市场趋势。它可提供商业或开源许可证。支持的操作系统：Windows 和 Linux。</p>
+</li>
+<li><p>SplendidCRM 有多个基于企业內部部署，云，付费和免费的版本。最新版本更好地集成了 Twitter和 Twilio 短信通讯（SMS），反删除能力，定时重复会议，HTML5 日历等。支持的操作系统：Windows</p>
+</li>
+<li><p>ConcourseSuite：基于 Java 的 ConcourseSuite 整合了销售，营销和客户服务团队使用的工具。除了免费版本，它还有付费的云和企业內部部署版本。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+</ol>
+<h2 id="数据库类软件"><a href="#数据库类软件" class="headerlink" title="数据库类软件"></a>数据库类软件</h2><ol>
+<li><p>MySQL：“世界上最流行的开源数据库” MySQL 的用户包括 Facebook，MTV，西尔斯公司，Verizon无线，Kayak，SonicWALL，维基百科，Tumblr 等众多知名公司。除了免费的社区版，它还有标准，企业和集群运营商级版本。支持的操作系统：Windows，Linux，Unix，OS X</p>
+</li>
+<li><p>PostgreSQL：目前正在卷土重来的 PostgreSQL 号称是“世界上最先进的开源数据库”。它的开发已超过15年，商业支持可通过第三方机构获取。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>Firebird：开发超过三十年的火鸟（Firebird）是一个具有“优秀并行能力，高性能，可为存储程序和触发器提供功能强大语言支持”的关系型数据库。付费支持由第三方供应商提供。支持的操作系统：Windows，Linux 和 Unix，OS X，Solaris</p>
+</li>
+<li><p>LuicdDB：LuicdDB 称自己是“第一个也是唯一专为数据仓库和商业智能开发的开源关系型数据库（RDBMS）”主要功能包括列存储，位图索引， 哈希散列连接/聚合以及页面级多版本控制。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>Kexi：Kexi 称自己为“一个开源可视化数据库应用程序的创造者，一个期待已久 Microsoft Office Access 和 Filemaker 的竞争对手。” 它现在是 Calligra 办公软件套装的一部分。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+</ol>
+<h2 id="桌面出版类软件"><a href="#桌面出版类软件" class="headerlink" title="桌面出版类软件"></a>桌面出版类软件</h2><ol>
+<li><p>Scribus：适合专业平面设计师和出版商使用的 Scribus 是一个全功能的平面设计软件。支持的功能包括分色，CMYK 和专色，ICC 色彩管理，创建 PDF 文档等等。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>MiKTeX：如果您要创建有很多科学表达式和数学公式的文件，请考虑 MIKTEX。它是专门“为创作美好的书，特别是包含大量数学的书籍”设计的。 支持的操作系统：Windows 和 Linux</p>
+</li>
+</ol>
+<h2 id="开发工具类软件"><a href="#开发工具类软件" class="headerlink" title="开发工具类软件"></a>开发工具类软件</h2><ol>
+<li><p>KDevelop：这个从 KDE 发展而来的集成开发环境（IDE）支持 C / C++ 和其它编程语言。自1998年开发以来，它已成为一个成熟，稳定，有着庞大用户群的项目。支持的操作系统：Linux，Unix，OS X</p>
+</li>
+<li><p>MonoDevelop：专为 C＃ 和 Visual Basic.NET 设计，MonoDevelop 帮助 Windows 开发人员创建多平台应用程序。主要功能包括先进的文本编辑，集成调试器，GTK＃ 可视化设计，单元测试，本地化功能等等。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>SharpDevelop 是.NET 开发人员的另一个很好的选择，SharpDevelop 的（#develop）支持 C＃，VisualBasic.NET 和 Boo。它包括一个集成的调试器，代码分析，单元测试，代码覆盖率，特征剖析，整合的 Git 和 Subversion 支持等等。支持的操作系统：Windows</p>
+</li>
+<li><p>OpenBD：原名 Open Blue Dragon 的 Open BD 使不购买 Adobe Cold Fusion 就能开发和部署基于 Cold Fusion 标记语言（CFML）的网络应用成为可能。它自冠的称号为：“世界上第一个真正的开源和免费的基于 GPL 和 Java 的 CFML 运行时环境。”支持的操作系统：Windows 和 Linux</p>
+</li>
+</ol>
+<h2 id="电子邮件-协同-群件类软件"><a href="#电子邮件-协同-群件类软件" class="headerlink" title="电子邮件/协同/群件类软件"></a>电子邮件/协同/群件类软件</h2><ol>
+<li><p>Zimbra 的开源版本提供了一个类似 Microsoft Exchange 功能的跨平台的客户端到服务器端邮件解决方案。该公司还提供拥有5亿用户的多种付费通信应用程序。支持的操作系统：Windows，Linux，Unix，OS X</p>
+</li>
+<li><p>EGroupware：据 eGroupWare 的首席执行官讲，基于网络的 eGroupWare 软件是“领先的开源协作工具，为全球大，中小企业的内部和跨组织团队的首选。”社区版可免费在内部服务器上运行。 企业版有定期付费的云版本或一次性付费的安装版。支持的操作系统：无限制</p>
+</li>
+<li><p>Citadel：Citadel 自封“真正的开源电子邮件和协作软件的领导者”，并承诺让用户“在几分钟内运行起来”无论是采用自己的硬件或云计算服务。其功能包括电子邮件，日历，论坛，邮件列表服务器，即时通信（IM），维基，博客，简易信息聚合(RSS)的整合等。支持的操作系统：Linux</p>
+</li>
+</ol>
+<h2 id="企业资源规划（ERP）"><a href="#企业资源规划（ERP）" class="headerlink" title="企业资源规划（ERP）"></a>企业资源规划（ERP）</h2><ol>
+<li><p>Odoo：原名 OpenERP 的 Odoo 自称捆绑了多种应用程序如网站建设，促销，业务经营，市场营销，提高员工满意度和生产效率。您可以免费下载该软件，或者使用有偿云版本每应用程序每用户每月15美元。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>Openbravo 提供了一个电子商务和企业资源规划（ERP）平台，用户包括 Oracle，江森自控，联邦银行，Grupo Eulen 和其它公司。开源版本可在 Code.Openbravo.com 下载。您还可以通过Openbravo 的渠道合作伙伴购买企业版并获得支持。支持的操作系统：无限制</p>
+</li>
+<li><p>Postbooks/xTuple ERP 宣称自己是“世界第一开源企业资源规划（ERP）软件”。xTuple 提供多种版本包括专门针对分销商和制造商的应用。PostBooks 有开源和商业版。多个应用程序和扩展可以通过 xChange 在线市场获得。支持的操作系统：无限制</p>
+</li>
+<li><p>ADempiere：这个具有社区意识的 ERP 解决方案包括销售，采购，生产管理，物料管理，财务，人力资源，项目管理，客户关系管理（CRM），销售点终端（POS），电子商务，设备维护管理和报表功能。该软件基于 Compiere 代码（见下一条目），无商业支持，但该网站提供了详尽的技术文档和培训资料。支持的操作系统：Windows，Linux，OS X</p>
+</li>
+<li><p>Compiere ERP + CRM Business Solution：自称是“最现代化，适应性强和用得起的企业资源规划（ERP）解决方案。”它的功能类似于 Adempiere。它提供了付费支持的企业版和在亚马逊网络（Amazon Web Services）上运行的选项。支持的操作系统：Windows，Linux，OS X</p>
+</li>
+<li><p>Opentaps 的用户包括丰田，霍尼韦尔，mBlox 等。它将企业资源规划（ERP）和客户关系管理（CRM）功能结合并提供有偿服务和支持。亚马逊网络服务（Amazon Web Services）也可提供Opentaps 服务。支持的操作系统：Windows 和 Linux</p>
+</li>
+<li><p>Apache OFBiz 是”Open for Business”的缩写。它提供了一套完整的企业自动化工具，包括电子商务，目录管理，推广和定价管理，订货，客户管理，会计，内容管理，销售点终端（POS）等。它的设计理念是灵活兼易于订制。支持的操作系统：无限制</p>
+</li>
+<li><p>Dolibarr ERP/CRM 是为小公司，基金会和自由职业者专门设计的 Dolibarr 可作为一个独立的应用程序或云服务使用。相关的很多插件可在 Dolistore 网站获得。支持的操作系统：无限制</p>
+</li>
+<li><p>WebERP 承诺提供成熟实用的基于网络的业务运行软件，特别是针对批发商，分销商和制造商的业务需求。分布在世界各地的多个第三方公司可提供付费支持。支持的操作系统：无限制 Foreign Language 外语类软件</p>
+</li>
+<li><p>Step Into Chinese：虽然它没有罗塞塔石碑(Rosetta Stone Chinese)那样完整的培训计划，Step Into Chinese 提供了多种中文自学工具，包括抽认卡片和超过26,000个中文词和8,300个汉字的字典。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>ZWDisplay：学习中文的另一个好工具，ZWDisplay 强调阅读和听力技巧。它采用了特殊的颜色编码格式，帮助用户学习中文的音调。支持的操作系统：Linux</p>
+</li>
+<li><p>Zkanji 的字典收录了21万个日文单词以帮助用户读写日文并结合抽认卡片练习词汇量。 它的目的是为初学者和高级学员提供帮助。支持的操作系统：Windows</p>
+</li>
+</ol>
+<h2 id="网关安全设备"><a href="#网关安全设备" class="headerlink" title="网关安全设备"></a>网关安全设备</h2><ol>
+<li><p>Endian Firewall Community：用户可以利用 Endian 的社区版和任何x86标准硬件创建自己的统一威胁管理（UTM）设备。Endian 还销售硬件，软件和基于同一技术的虚拟设备。支持的操作系统：Linux</p>
+</li>
+<li><p>Untangle 的免费 NG 防火墙包括网络过滤，应用控制，防病毒，防网络钓鱼，防入侵，防火墙，OpenVPN，防垃圾邮件，广告拦截和报表生成等开源解决方案。同 Endian 一样，它支持用户利用旧电脑创建自己的安全设备，用户也可购买该系统支持的统一威胁管理（UTM）软件或硬件。 支持的操作系统：Windows 和 Linux</p>
+</li>
+</ol>
+<h2 id="图形-绘图类软件"><a href="#图形-绘图类软件" class="headerlink" title="图形/绘图类软件"></a>图形/绘图类软件</h2><ol>
+<li><p>Dia：同 Visio 一样，Dia可以创建关系图，流程图，网络图，组织结构图和类似的图表。在默认情况下它支持 XML 文件，可以导出 EPS，SVG，XFIG，WMF 和 PNG 文件格式。支持的操作系统：Windows 和 Linux</p>
+</li>
+<li><p>Gimp 是“GNU图像处理程序”的简称，它提供专业品质的照片编辑和图像制作，具有与 Photoshop 相同的高级功能，在 Linux 桌面用户中备受青睐。支持的操作系统：Windows 和 Linux</p>
+</li>
+<li><p>Inkscape：像 Gimp 一样，Inkscape 适合专业平面设计师使用。它提供了创建矢量图形和支持多种不同文件类型的各种工具。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+</ol>
+<h2 id="数学类软件"><a href="#数学类软件" class="headerlink" title="数学类软件"></a>数学类软件</h2><ol>
+<li><p>Sage 为超过100种不同的开源数学项目提供了一个统一的界面。它可以解析基础代数，微积分，数论，密码学，交换代数，群论，2D 和 3D 图形，线性图（linear graphics）等等。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>Genius：像 Sage 一样，Genius 可处理多种类型数学运算，包括微积分，数论，统计，三角函数，模运算，2D 和 3D 绘图等等。它包括一个图形用户界面的开发环境（IDE），并可导出 LaTex、Troff 或 MathML 格式矩阵数据。支持的操作系统：Linux，OS X</p>
+</li>
+<li><p>Scilab：许多教育机构使用 Scilab 辅助教授数学，科学和工程课程。它可以执行多种不同类型计算。Scilab 的企业版可提供有偿的支持，培训和服务。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>Maxima 计算机代数系统可求解的数学表达式包括“微分，积分，泰勒级数，拉普拉斯变换，常微分方程，线性方程组，多项式，以及集合，数列，向量，矩阵和张量”等。它的代码基于 MIT 在20世纪60年代末开发的 MACSYMA 数学程序。支持的操作系统：Windows，Linux 和 OS X.</p>
+</li>
+</ol>
+<h2 id="音乐类软件"><a href="#音乐类软件" class="headerlink" title="音乐类软件"></a>音乐类软件</h2><ol>
+<li>MuseScore：乐谱软件通常花费数百美元。但 MuseScore 创作优美的乐谱却是完全免费的。其特点包括无限和弦长度，无限制谱线数量，无限的声音输入数量，创作向导和模板，自动部分提取，换位，力度，歌词，和弦符号，打击乐谱符号，早期乐谱符号等等。支持的操作系统：Windows，Linux 和 OS X</li>
+</ol>
+<h2 id="办公效率"><a href="#办公效率" class="headerlink" title="办公效率"></a>办公效率</h2><ol>
+<li><p>OpenOffice：完整版 Microsoft Office 的价格近年来显著回落，但使用年费还是随着时间的推移而显著累积。相比之下，完整版本的 Apache OpenOffice 是完全免费的。它包括文字处理，电子表格，演示文稿，图片，数学公式编辑和数据库软件，它还可读写 Office 格式文件。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>LibreOffice：从 OpenOffice 分支出来的 LibreOffice 提供其前身相同类型的软件并附带额外的功能扩展。其网站上的对比表有助于比较它与 Microsoft Office 的异同（注：在官方网站未找到此表。但在 Wiki 网可找到<a href="https://wiki.documentfoundation.org/Feature_Comparison:_LibreOffice_-_Microsoft_Office）。支持的操作系统：Windows，Linux" target="_blank" rel="noopener">https://wiki.documentfoundation.org/Feature_Comparison:_LibreOffice_-_Microsoft_Office）。支持的操作系统：Windows，Linux</a> 和 OS X</p>
+</li>
+<li><p>Calligra 前身为 KOffice，Calligra 套件包括文字处理器，电子表格，演示文稿，项目管理，绘画（Krita），数据库（Kexi），矢量图形（Karbon），流程图和思维导图。它支持微软的文件格式，但用户界面与 Office 很不同。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>NeoOffice：同 LibreOffice 一样，NeoOffice 也是从 OpenOffice 分支出来的。但 NeoOffice 仅用于 Mac 电脑。最新版本支持 Yosemite 系统的新 iCloud 驱动，可从 Mac App Store 下载。支持的操作系统：OS X，iOS</p>
+</li>
+</ol>
+<h2 id="操作系统类软件"><a href="#操作系统类软件" class="headerlink" title="操作系统类软件"></a>操作系统类软件</h2><ol>
+<li><p>Ubuntu：Linux 最流行的桌面发行版，Canonical 的 Ubuntu 提供云，服务器，台式机，手机，平板电脑和电视版本。Ubuntu 的 Advantage 计划提供有偿系统管理和支持服务。</p>
+</li>
+<li><p>Red Hat Enterprise Linux：“业界领先的企业级 Linux 平台，”Red Hat 是一个商业运作的操作系统，根据该公司介绍，用户中超过90%是财富500强企业。Red Hat 还提供了各种相关的开发工具，中间件和云计算软件。</p>
+</li>
+<li><p>Fedora：如果您想使用 Red Hat 的 Linux 版本却不想支付企业支持费，你该用它的免费社区版Fedora，这包括已安装在数以百万计系统上的超过一万个免费应用程序。</p>
+</li>
+<li><p>SUSE Linux Enterprise：SUSE 系统运行在伦敦证券交易所，Office Depot，Teradata 和沃尔格林，全球用户超过13,000个。它有服务器，桌面和云版本，所有版本的支持均需要付费。</p>
+</li>
+<li><p>openSUSE：免费且不需支持合同，自称“思想开放者的 Linux”的 openSUSE 是一个稳定的，易于使用的操作系统，内置有1,000多个不同的应用程序。</p>
+</li>
+<li><p>Linux Mint：易于量身定制的 Linux Mint 给用户四种不同桌面界面选择。其中某些界面与旧版Windows 非常相似，使它成为替代旧电脑上 Windows XP 受欢迎的选择。</p>
+</li>
+<li><p>Debian：拥有超过37,500个应用程序的 Debian 是一个功能非常全的 Linux 发行版。它在拥有丰富Linux 使用经验的用户群体中非常受欢迎。</p>
+</li>
+</ol>
+<h2 id="工具类软件"><a href="#工具类软件" class="headerlink" title="工具类软件"></a>工具类软件</h2><ol>
+<li><p>PDFCreator：此应用程序可从几乎任何类型的文件创建 PDF 文件。它还包括专业功能如压缩和调整图像大小，加密，密码保护，文档合并等等。支持的操作系统：Windows</p>
+</li>
+<li><p>jPDF Tweak：基于 Java 的 jPDF 自称为“PDF文件的瑞士军刀”。它可以合并，分割，旋转，重新排序，加水印，加密，修复和签署 PDF 文件。支持的操作系统：无限制</p>
+</li>
+<li><p>PDFedit：每周下载上千次，这个工具允许用户编辑自己的 PDF 文件。它可以编辑文本，删除页面，更改图形和更多。支持的操作系统：Windows 和 Linux</p>
+</li>
+<li><p>PDF SAM 是“PDF分割和合并”的简称，PDF SAM 基础版可以提取页面，合并多个文件，重新排序等等。捐赠至少一个欧元，您可下载增强版，它增加了加密，解密和元数据编辑功能。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+</ol>
+<h2 id="销售点终端（POS）"><a href="#销售点终端（POS）" class="headerlink" title="销售点终端（POS）"></a>销售点终端（POS）</h2><ol>
+<li><p>Openbravo POS：这个基于网络的销售点终端（POS）解决方案集成了 Openbravo 的企业资源规划（ERP）软件。移动版可以让零售人员帮助客户在店内任何地方结算。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>uniCenta：与 Openbravo POS 基于相同源代码的 uniCenta 是一个多语种的销售点终端（POS）系统十分适合在多功能设施使用，如带零售店的餐厅。它已被下载超过13万次。支持的操作系统：Windows，Linux，OS X</p>
+</li>
+<li><p>Floreant POS：仅适于餐馆，Floreant 已被用在超过25,000个场所，包括一些丹尼（Denny’s）连锁餐厅。它可处理订货，厨房打印，钱屉，外卖，税收，打折，订单分组等等。支持的操作系统：Linux</p>
+</li>
+</ol>
+<h2 id="项目管理类软件"><a href="#项目管理类软件" class="headerlink" title="项目管理类软件"></a>项目管理类软件</h2><ol>
+<li><p>GanttProject 允许用户创建任务和里程碑，组织任务，制定相关约束，创建基线和创建基于甘特图的计划评审技术图（PERT）。它的下载量每周超过20,000次，备受青睐。支持的操作系统：Windows，Linux 和 OS X</p>
+</li>
+<li><p>dotProject：该项目管理工具包括日历，甘特图，报告，资源调度，文件共享，论坛等等。安装和定制等服务由项目开发人员提供。支持的操作系统：Windows 和 Linux</p>
+</li>
+<li><p>Onepoint Project 的功能包括工作结构分解，项目管道，成本基线，计划/实际比较，里程碑趋势分析，资源利用，甘特/计划分解，任务管理，说明注释，文件管理，自定义字段等。它针对不同规模的组织有多种版本，包括免费开源的基础和社区版。支持的操作系统：Windows，Linux 和 OS X。</p>
+</li>
+</ol>
+<p>（原文：Datamation，译者：TrustWorkthy）</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>您的打赏用于支付域名、服务器续费之用</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="NO.0 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.png" alt="NO.0 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    NO.0
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://www.tang-xin.top/2018/06/05/商业软件太贵？找开源替代品/" title="商业软件太贵？找开源替代品">https://www.tang-xin.top/2018/06/05/商业软件太贵？找开源替代品/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/软件/" rel="tag"># 软件</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/06/04/t/" rel="next" title="t">
+                <i class="fa fa-chevron-left"></i> t
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="SOHUCS"></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.png"
+                alt="NO.0" />
+            
+              <p class="site-author-name" itemprop="name">NO.0</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:tangxin@tang-xin.top" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#财会类软件"><span class="nav-number">1.</span> <span class="nav-text">财会类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#录音-编辑类软件"><span class="nav-number">2.</span> <span class="nav-text">录音/编辑类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#商业智能类软件"><span class="nav-number">3.</span> <span class="nav-text">商业智能类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#业务流程管理类软件"><span class="nav-number">4.</span> <span class="nav-text">业务流程管理类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#计算机辅助设计类软件"><span class="nav-number">5.</span> <span class="nav-text">计算机辅助设计类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#客户关系管理类软件"><span class="nav-number">6.</span> <span class="nav-text">客户关系管理类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据库类软件"><span class="nav-number">7.</span> <span class="nav-text">数据库类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#桌面出版类软件"><span class="nav-number">8.</span> <span class="nav-text">桌面出版类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开发工具类软件"><span class="nav-number">9.</span> <span class="nav-text">开发工具类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#电子邮件-协同-群件类软件"><span class="nav-number">10.</span> <span class="nav-text">电子邮件/协同/群件类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#企业资源规划（ERP）"><span class="nav-number">11.</span> <span class="nav-text">企业资源规划（ERP）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#网关安全设备"><span class="nav-number">12.</span> <span class="nav-text">网关安全设备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图形-绘图类软件"><span class="nav-number">13.</span> <span class="nav-text">图形/绘图类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数学类软件"><span class="nav-number">14.</span> <span class="nav-text">数学类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#音乐类软件"><span class="nav-number">15.</span> <span class="nav-text">音乐类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#办公效率"><span class="nav-number">16.</span> <span class="nav-text">办公效率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作系统类软件"><span class="nav-number">17.</span> <span class="nav-text">操作系统类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#工具类软件"><span class="nav-number">18.</span> <span class="nav-text">工具类软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#销售点终端（POS）"><span class="nav-number">19.</span> <span class="nav-text">销售点终端（POS）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目管理类软件"><span class="nav-number">20.</span> <span class="nav-text">项目管理类软件</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2012 &mdash; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">No.0's</span>
+
+  
+</div>
+
+
+
+
+
+
+
+
+  <div class="footer-custom">基于<a target="_blank" href="https://hexo.io/">Hexo</a>构建  |  托管于<a target="_blank" href="https://pages.github.com">GitHub Pages</a></div>
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+  
+    <script type="text/javascript">
+    (function(){
+      var appid = 'cytBjN7t9';
+      var conf = '26d564355d14af5fc2d07bcbff99c22c';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      if (width < 960) {
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){
+        window.changyan.api.config({appid:appid,conf:conf})});
+      }
+    })();
+    </script>
+    <script type="text/javascript" src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
