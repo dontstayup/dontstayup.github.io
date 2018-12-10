@@ -306,6 +306,183 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.tang-xin.top/2018/12/10/hexo添加评论/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="NO.0">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="NO.0's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/12/10/hexo添加评论/" itemprop="url">hexo添加评论</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-10T22:04:13+08:00">
+                2018-12-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/study/" itemprop="url" rel="index">
+                    <span itemprop="name">study</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/12/10/hexo添加评论/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/12/10/hexo添加评论/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>一开始使用<code>Github pages</code>搭建博客的时候纠结了很久的评论功能，最后用了<code>搜狐畅言</code>，但是畅言存在评论必须登陆、域名必须备案的要求，恰巧最近看到一个<a href="https://sherwinww.github.io/2018/11/20/0005_hexo_comment/" target="_blank" rel="noopener">技术大佬</a>的博客介绍了一款极简还可以匿名评论的评论系统<code>Valine</code>.。</p>
+<blockquote>
+<p>Valine – 一款基于 Leancloud 的极简风评论系统</p>
+</blockquote>
+<h1 id="Valine是什么"><a href="#Valine是什么" class="headerlink" title="Valine是什么"></a>Valine是什么</h1><p>Valine 诞生于2017年8月7日，是一款基于Leancloud的快速、简洁且高效的无后端评论系统。</p>
+<h1 id="Valine比起其他系统的优点"><a href="#Valine比起其他系统的优点" class="headerlink" title="Valine比起其他系统的优点"></a>Valine比起其他系统的优点</h1><ul>
+<li>快速</li>
+<li>安全</li>
+<li>Emoji 😉</li>
+<li>无后端实现</li>
+<li>MarkDown 全语法支持</li>
+<li>轻量易用(~15kb gzipped)<h1 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h1><h2 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h2>在<a href="https://leancloud.cn/" target="_blank" rel="noopener">LeanCloud</a>官网进行账号注册。<br><img src="/2018/12/10/hexo添加评论/1.jpg" alt="LeanCloud官网"><h2 id="创建应用并获取Leancloud-Key"><a href="#创建应用并获取Leancloud-Key" class="headerlink" title="创建应用并获取Leancloud Key"></a>创建应用并获取Leancloud Key</h2></li>
+</ul>
+<ul>
+<li>点击创建应用，取名任意，其余设置默认即可。</li>
+<li>点击设置-应用key，可以看到 App ID 和 App Key</li>
+<li>保留页面，待会有用。<br><img src="/2018/12/10/hexo添加评论/2.jpg" alt="获取ID&amp;key"><h2 id="修改主题配置文件"><a href="#修改主题配置文件" class="headerlink" title="修改主题配置文件"></a>修改主题配置文件</h2></li>
+<li>为了保险起见，推荐你先备份下 /themes/next/_config.yml。以防出现不备。</li>
+<li>在/themes/next/_config.yml中查找关键词valine完善代码如下<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># Valine.</span></span><br><span class="line"><span class="section"># You can get your appid and appkey from https://leancloud.cn</span></span><br><span class="line"><span class="section"># more info please open https://valine.js.org</span></span><br><span class="line">valine:</span><br><span class="line">  enable: true # 功能开关</span><br><span class="line">  appid: <span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span>* # 你的 appid</span><br><span class="line">  appkey: <span class="strong">*****</span><span class="strong">*****</span><span class="strong">*****</span> # 你的 appkey</span><br><span class="line">  notify: false # 新评论的邮件通知</span><br><span class="line">  verify: false # 评论是否需要验证码</span><br><span class="line">  placeholder: 说点什么 # 评论框提示语</span><br><span class="line">  avatar: hide # 游客头像</span><br><span class="line">  guest_info: nick,mail,link # 游客信息</span><br><span class="line">  pageSize: 10 # 分页数量</span><br><span class="line">  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="添加安全域名"><a href="#添加安全域名" class="headerlink" title="添加安全域名"></a>添加安全域名</h2><ul>
+<li>Leancloud -&gt; 设置 -&gt; 安全中心 -&gt; Web 安全域名 ，把你的域名加进去<br><img src="/2018/12/10/hexo添加评论/3.jpg" alt="添加域名"> <h2 id="网站部署"><a href="#网站部署" class="headerlink" title="网站部署"></a>网站部署</h2></li>
+<li>记得进行 hexo clean</li>
+<li>效果图<br><img src="/2018/12/10/hexo添加评论/4.jpg" alt="效果图"> </li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://www.tang-xin.top/2018/06/05/商业软件太贵？找开源替代品/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1081,162 +1258,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.tang-xin.top/2018/04/24/中兴被封杀事件/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="NO.0">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="NO.0's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/24/中兴被封杀事件/" itemprop="url">中兴被美封杀</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-24T16:06:36+08:00">
-                2018-04-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/essay/" itemprop="url" rel="index">
-                    <span itemprop="name">essay</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/04/24/中兴被封杀事件/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/24/中兴被封杀事件/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p><strong> 当地时间4月16日，美国商务部网站公告，7年内禁止美国企业向中兴通讯出口任何技术、产品。公告称，中兴通讯违反了2017年与美国政府达成的和解协议。当时，美国政府指控中兴通讯违反美对伊朗的出口管制政策。</strong></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/04/24/中兴被封杀事件/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1291,7 +1312,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
