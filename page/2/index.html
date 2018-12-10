@@ -374,15 +374,14 @@
           
             
               <span class="post-comments-count">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-comment-o"></i>
-              </span>
-              
-                <a href="/2018/04/24/重装系统后还原Hexo/#SOHUCS" itemprop="discussionUrl">
-                  <span id="url::https://www.tang-xin.top/2018/04/24/重装系统后还原Hexo/" class="cy_cmt_count" data-xid="2018/04/24/重装系统后还原Hexo/" itemprop="commentsCount" ></span>
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/24/重装系统后还原Hexo/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/24/重装系统后还原Hexo/" itemprop="commentCount"></span>
                 </a>
-              
+              </span>
             
           
 
@@ -531,15 +530,14 @@
           
             
               <span class="post-comments-count">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-comment-o"></i>
-              </span>
-              
-                <a href="/2018/04/22/基于GitHubj和Hexo搭建博客/#SOHUCS" itemprop="discussionUrl">
-                  <span id="url::https://www.tang-xin.top/2018/04/22/基于GitHubj和Hexo搭建博客/" class="cy_cmt_count" data-xid="2018/04/22/基于GitHubj和Hexo搭建博客/" itemprop="commentsCount" ></span>
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/22/基于GitHubj和Hexo搭建博客/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/22/基于GitHubj和Hexo搭建博客/" itemprop="commentCount"></span>
                 </a>
-              
+              </span>
             
           
 
@@ -898,15 +896,33 @@
 
 
 
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   
-    <script id="cy_cmt_num" src="https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cytBjN7t9"></script>
-  
-
-
-
-
-
-
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'IlnJSzFJVkUMAJXFxRI7h3e4-gzGzoHsz',
+        appKey: 'o3yrz7gUEG84V2s17EPUwb1v',
+        placeholder: '说点什么',
+        avatar:'hide',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
